@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+.tasks-block .input-group {
+  height: 10px;
+}
+.tasks-block .input-group .save {
+  background-color: #2ecc71;
+  height: 20px;
+  border-width: 0;
+}
+.tasks-block .input-group .cancel {
+  background-color: #f7ca18;
+  height: 20px;
+  border-width: 0;
+}
+.tasks-block .input-group input {
+  border-width: 0;
+}
+.tasks-block .panel {
+  border-radius: 0;
+}
+.tasks-block .panel-heading {
+  color: #FFFFFF;
+  border-bottom-width: 0;
+  border-radius: 0;
+  padding: 15px 15px;
+}
+.tasks-block .panel-heading a {
+  color: #FFFFFF;
+  line-height: 0;
+}
+.tasks-block .list-group li {
+  margin-bottom: 5px;
+  border-radius: 0;
+}
+.tasks-block .list-group a {
+  text-decoration: none;
+}
+.tasks-block .panel-danger {
+  border-color: #feb4a6;
+}
+.tasks-block .panel-danger .panel-heading {
+  background-color: #fc6042;
+}
+.tasks-block .panel-danger .list-group li {
+  background-color: #ffebe8;
+  border-color: #fecac0;
+  color: #fb3e1a;
+}
+.tasks-block .panel-danger .list-group li a {
+  color: #fb3e1a;
+}
+.tasks-block .panel-success {
+  border-color: #40d47e;
+}
+.tasks-block .panel-success .panel-heading {
+  background-color: #2ecc71;
+}
+.tasks-block .panel-success .list-group li {
+  background-color: #e6f9ee;
+  border-color: #5dda92;
+  color: #26ab5f;
+}
+.tasks-block .panel-success .list-group li a {
+  color: #26ab5f;
+}
+.tasks-block .panel-warning {
+  border-color: #f8d031;
+}
+.tasks-block .panel-warning .panel-heading {
+  background-color: #f7ca18;
+}
+.tasks-block .panel-warning .list-group li {
+  background-color: #fef6d8;
+  border-color: #fae17b;
+  color: #deb308;
+}
+.tasks-block .panel-warning .list-group li a {
+  color: #deb308;
+}
+.tasks-block .new-item-header a {
+  font-size: 20px;
+}

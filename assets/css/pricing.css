@@ -1,0 +1,127 @@
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+/*******************   Contents    *******************
+*  
+*  1. Pricing
+---------------------------------------------------------------------------------------------- */
+/*   Pricing
+---------------------------------------------------------------------------------------------- */
+.pricing {
+  border: 1px solid #e0e4ec;
+  margin: 10px;
+}
+.pricing .pricing-header {
+  color: #282b37;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #ffffff;
+  word-wrap: break-word;
+  position: relative;
+}
+.pricing .pricing-header .recommended {
+  position: absolute;
+  top: -13px;
+  right: -13px;
+}
+.pricing .pricing-header .recommended i {
+  background-color: #03cacc;
+  padding: 6px 8px;
+  color: #ffffff;
+  font-size: 18px;
+}
+.pricing .pricing-price {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #03cacc;
+}
+.pricing .pricing-price span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.pricing .pricing-price.pricing-recommended-price {
+  background-color: #282b37;
+}
+.pricing .pricing-features {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+}
+.pricing .pricing-features li {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 8px;
+}
+.pricing .pricing-features li span {
+  color: #666666;
+  font-weight: 600;
+}
+.pricing.pricing-two {
+  background-color: #282b37;
+}
+.pricing.pricing-two .pricing-header {
+  background-color: transparent;
+  color: #ffffff;
+}
+.pricing.pricing-two .pricing-price.pricing-recommended-price {
+  color: #282b37;
+  background-color: #ffffff;
+}
+.pricing.pricing-two .pricing-features {
+  background-color: transparent;
+}
+.pricing.pricing-two .pricing-features li {
+  color: #ffffff;
+}
+.pricing.pricing-two .pricing-features li span {
+  color: #a2a7bc;
+}
+.pricing.pricing-three {
+  margin: 0;
+  width: 24%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.pricing.pricing-three .pricing-header {
+  background-color: #282b37;
+  color: #ffffff;
+}
+.pricing.pricing-three .pricing-header .recommended {
+  top: -1px;
+  right: 0;
+}
+.pricing.pricing-three .pricing-price.pricing-recommended-price {
+  border-top: 1px solid #e0e4ec;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .pricing.pricing-three {
+    width: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .pricing.pricing-three {
+    display: block;
+    width: 100%;
+  }
+}

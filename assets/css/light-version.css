@@ -1,0 +1,167 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+/*   Left Sidebar Light version
+---------------------------------------------------------------------------------------------- */
+.left-sidebar.light-version {
+  background-color: #FFFFFF !important;
+  border-right: 1px solid #d7deeb !important;
+}
+.left-sidebar.light-version .avatar-block {
+  background-color: #FFFFFF !important;
+}
+.left-sidebar.light-version .avatar-block h3 {
+  color: #8590A6 !important;
+}
+.left-sidebar.light-version .avatar-block h6 {
+  color: #8590A6 !important;
+}
+.left-sidebar.light-version .avatar-block p {
+  color: #8590A6 !important;
+}
+.left-sidebar.light-version .avatar-block .edit {
+  color: #8590A6 !important;
+}
+.left-sidebar.light-version .avtar-settings ul {
+  padding: 20px;
+}
+.left-sidebar.light-version .avtar-settings ul li {
+  border-bottom: 1px solid #d7d7d7 !important;
+}
+.left-sidebar.light-version .avtar-settings ul li a {
+  color: #8590A6 !important;
+  color: red !important;
+}
+.left-sidebar.light-version .left-sidebar-menu > li:before {
+  background-color: #f2f2f2 !important;
+}
+.left-sidebar.light-version .left-sidebar-menu > li:hover,
+.left-sidebar.light-version .left-sidebar-menu > li.active {
+  cursor: pointer;
+}
+.left-sidebar.light-version .left-sidebar-menu > li:hover:before,
+.left-sidebar.light-version .left-sidebar-menu > li.active:before {
+  width: 100%;
+}
+.left-sidebar.light-version .left-sidebar-menu > li:hover a i,
+.left-sidebar.light-version .left-sidebar-menu > li.active a i {
+  color: #FFFFFF;
+}
+.left-sidebar.light-version .left-sidebar-menu > li a {
+  text-decoration: none;
+  color: #8590A6 !important;
+}
+.left-sidebar.light-version .left-sidebar-menu > li a i {
+  color: grey !important;
+}
+.left-sidebar.light-version .left-sidebar-menu .submenu ul {
+  border-top: 1px solid #eeeeee !important;
+  border-bottom: 1px solid #eeeeee !important;
+  background-color: #fbfbfb !important;
+}
+.left-sidebar.light-version .left-sidebar-menu .submenu ul ul {
+  background-color: #f6f6f6 !important;
+}
+.left-sidebar.light-version .left-sidebar-menu .submenu ul ul ul {
+  background-color: #e7e7e7 !important;
+}
+.left-sidebar.light-version .left-sidebar-menu .submenu ul:before {
+  background-color: #dadce2 !important;
+}
+.left-sidebar.light-version .left-sidebar-menu .submenu ul li a {
+  color: #31323b !important;
+}
+.left-sidebar.light-version .left-sidebar-menu .submenu ul li a:hover {
+  color: #FFFFFF;
+}
+.left-sidebar.light-version .left-sidebar-menu .submenu ul li a:after {
+  background-color: #dadce2 !important;
+}
+.left-sidebar.light-version .left-sidebar-menu .submenu ul li.active a {
+  color: #FFFFFF;
+}
+.left-sidebar.light-version .left-sidebar-menu .submenu .menu-chevron {
+  position: absolute;
+  text-align: right;
+  color: #8590A6;
+  display: inline-block;
+  right: 20px;
+  font-size: 10px;
+}
+/*   Right sidebar light version
+---------------------------------------------------------------------------------------------- */
+.light-version.right-sidebar {
+  background-color: #FFFFFF !important;
+}
+.light-version.right-sidebar .right-header {
+  background-color: #f9f9f9 !important;
+}
+.light-version.right-sidebar .right-header .close-rightsidebar {
+  color: #03cacc !important;
+}
+.light-version.right-sidebar .right-sidebar-tab .nav-tabs > li > a {
+  color: #03cacc;
+}
+.light-version.right-sidebar .right-sidebar-tab .nav-tabs > li > a .ion-cube {
+  color: #2196f3;
+}
+.light-version.right-sidebar .right-sidebar-tab .nav-tabs > li > a .ion-paintbucket {
+  color: #FC6042;
+}
+.light-version.right-sidebar .right-sidebar-tab .nav-tabs > li > a .ion-person-stalker {
+  color: #D98B3A;
+}
+.light-version.right-sidebar .right-sidebar-tab .nav-tabs > li.active > a,
+.light-version.right-sidebar .right-sidebar-tab .nav-tabs > li.active > a:focus,
+.light-version.right-sidebar .right-sidebar-tab .nav-tabs > li.active > a:hover {
+  color: #FFFFFF !important;
+}
+.light-version.right-sidebar .right-sidebar-tab .nav-tabs > li.active > a i,
+.light-version.right-sidebar .right-sidebar-tab .nav-tabs > li.active > a:focus i,
+.light-version.right-sidebar .right-sidebar-tab .nav-tabs > li.active > a:hover i {
+  color: #FFFFFF !important;
+}
+.light-version.right-sidebar .contacts-list .list-group-item a {
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+.light-version.right-sidebar .contacts-list .list-group-item a:hover span.name {
+  color: #03cacc;
+}
+.light-version.right-sidebar .contacts-list .list-group-item span.name {
+  color: #8a8c8f !important;
+}
+.light-version.right-sidebar .knot-accordion .collapsed i.ti-angle-down:before {
+  content: "\e649" !important;
+}
+.light-version.right-sidebar .knot-accordion .panel .panel-heading .panel-title a {
+  color: #666666 !important;
+}
+.light-version.right-sidebar .knot-accordion .panel-body {
+  background-color: #FFFFFF !important;
+}
+.light-version.right-sidebar .knot-accordion .panel-default {
+  background-color: #f9f9f9;
+  border-width: 0;
+  margin-top: 10px;
+}
+.light-version.right-sidebar .knot-accordion .info-head {
+  color: #666666 !important;
+}
+.light-version.right-sidebar .settings {
+  margin-top: 20px;
+}
+.light-version.right-sidebar .settings .toggle-switch {
+  margin-bottom: 10px;
+  display: table;
+  width: 100%;
+}
+.light-version.right-sidebar .settings label {
+  color: #666666 !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}

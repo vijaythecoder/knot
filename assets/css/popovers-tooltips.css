@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+/****************************************************
+                        Popovers
+****************************************************/
+.popover {
+  border: 1px solid #e0e4ec;
+  border-radius: 0px;
+}
+.popover .popover-title {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  background-color: #eef0f4;
+  border-radius: 0px;
+  border-bottom: #e0e4ec;
+  background-color: #03cacc;
+}
+.popover .popover-content {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+}
+.popover.top > .arrow {
+  border-top-color: #e0e4ec !important;
+}
+.popover.right > .arrow {
+  border-right-color: #e0e4ec !important;
+}
+.popover.bottom > .arrow {
+  border-bottom-color: #e0e4ec !important;
+}
+.popover.left > .arrow {
+  border-left-color: #e0e4ec !important;
+}
+/****************************************************
+                        Tooltips
+****************************************************/
+.tooltip .tooltip-inner {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+}
+.primary-tooltip + .tooltip > .tooltip-inner {
+  background-color: #03cacc;
+}
+.primary-tooltip + .tooltip > .tooltip-arrow {
+  border-left-color: #03cacc;
+}
+.red-tooltip + .tooltip > .tooltip-inner {
+  background-color: #fc6042;
+}
+.red-tooltip + .tooltip > .tooltip-arrow {
+  border-top-color: #fc6042;
+}
+.orange-tooltip + .tooltip > .tooltip-inner {
+  background-color: #f7ca18;
+}
+.orange-tooltip + .tooltip > .tooltip-arrow {
+  border-bottom-color: #f7ca18;
+}
+.green-tooltip + .tooltip > .tooltip-inner {
+  background-color: #2ecc71;
+}
+.green-tooltip + .tooltip > .tooltip-arrow {
+  border-right-color: #2ecc71;
+}

@@ -1,0 +1,85 @@
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+.invoice-from,
+.invoice-to {
+  padding-left: 50px;
+}
+.invoice-heading {
+  font-family: 'Raleway', sans-serif;
+  color: #4d4d4d;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+address.invoice-address p {
+  line-height: 14px;
+  font-size: 13px;
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+}
+.invoice-inactivity {
+  margin-left: 2px solid #e0e4ec;
+  padding: 0px 10px;
+}
+.invoice-inactivity ul {
+  padding-left: 0;
+  border-left: 2px solid #c0c8d9;
+  margin-top: 25px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.invoice-inactivity ul li {
+  padding-left: 15px;
+  color: red;
+  list-style: none;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  color: #8a8c8f;
+  position: relative;
+  line-height: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.invoice-inactivity ul li strong {
+  color: #03cacc;
+}
+.invoice-inactivity ul li:last-child {
+  position: absolute;
+}
+.invoice-inactivity ul li:first-child.complete:after,
+.invoice-inactivity ul li:first-child.incomplete:after {
+  top: 0;
+}
+.invoice-inactivity ul li p {
+  font-size: 10px;
+  line-height: 10px;
+  padding-top: 5px;
+  color: #a4b0c7;
+  margin-bottom: 0;
+}
+.invoice-inactivity ul li.complete:after,
+.invoice-inactivity ul li.incomplete:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: -6px;
+  top: 4px;
+  font-size: 13px;
+  background-color: #03cacc;
+}
+.invoice-inactivity ul li.incomplete:after {
+  background-color: #adb8cd;
+}
+.table-invoice td {
+  border-top-width: 0 !important;
+}

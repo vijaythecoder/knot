@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title> Knot - Image Crop </title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="assets/css/preloader.css" type="text/css">
+
+    
+	<link href="assets/css/cropper-main.css" rel="stylesheet">
+  <link href="assets/css/cropper.css" rel="stylesheet">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+     <script>
+        jQuery(window).load(function () {
+          $('.knot-preloader').addClass('hidden');
+        });
+      </script>
+
+</head>
+<body class="">
+    
+    <!-- To disable preloader, please remove knot-preloader block -->
+    <div class="knot-preloader text-center">
+        <img src="assets/images/macbookproretina.png" alt="">
+        <h1>Knot Responsive Admin Template</h1>
+      <div class="timer-loader">Loading…</div>
+    </div>
+
+
+    <section id="left-sidebar" class="left-sidebar">      
+
+    <div class="brand"> <img src="assets/images/logo.png" alt=""> </div>
+    <div class="brand-mini-bar"><img src="assets/images/mini-logo.png" alt=""></div>
+
+    <div class="avatar-block">
+        <img src="assets/images/avatar/one.png" alt="">
+        <a class="info" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" data-parent="#left-sidebar">
+            <h6>Welcome</h6>          
+            <h3>Richards</h3>          
+            <div class="edit"><i class="ion-android-options"></i></div> 
+        </a> 
+        <!-- info -->
+        <div class="collapse avtar-settings" id="collapseExample1">          
+            <ul class="list-unstyled">
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Time</a></li>
+                <li><a href="#">Password</a></li>
+                <li><a href="#">Lock</a></li>
+            </ul>          
+        </div>      
+    </div>
+    <!-- avatar-block -->
+
+    <ul class="list-unstyled left-sidebar-menu">
+        <li ><a href="index.html"><i class="ion-ios-home-outline"></i><span class="menu-name">Home</span></a></li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseLayouts" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-bookmarks-outline"></i><span class="menu-name">Layouts</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseLayouts">          
+                <ul class="list-unstyled">
+                    <li ><a href="collapsed-sidebar.html">Collapsed Sidebar</a></li>
+                    <li ><a href="menu-with-header.html">Menu with Header</a></li>
+                    <li ><a href="horizontal-menu.html">Horizontal Menu</a></li>
+                    <li ><a href="right-sidebar.html">Right Sidebar</a></li>
+                    <li ><a href="left-right-sidebar.html">Left Right Sidebar</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseKnotExclusive" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-medical-outline"></i><span class="menu-name">Knot Exclusive</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseKnotExclusive">          
+                <ul class="list-unstyled">
+                    <li ><a href="gallery.html">Gallery</a></li>
+                    <li ><a href="invoice.html">Invoice</a></li>
+                    <li ><a href="mailbox.html">Mail Box</a></li>
+                    <li ><a href="calendar.html">Calendar</a></li>
+                    <li ><a href="pricing.html">Pricing</a></li>
+                    <li ><a href="info-boxes.html">Info Boxes</a></li>
+                    <li ><a href="profile.html">Profile</a></li>
+                    <li ><a href="tasks.html">Tasks</a></li>
+                    <li ><a href="timeline.html">Timeline</a></li>
+                    
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseUiElements" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-toggle-outline"></i><span class="menu-name">UI Elements</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseUiElements">          
+                <ul class="list-unstyled">
+                    <li ><a href="typography.html">Typography</a></li>
+                    <li ><a href="buttons.html">Buttons</a></li>
+                    <li ><a href="notifications.html">Notifications</a></li>
+                    <li ><a href="alerts.html">Alerts</a></li>
+                    <li ><a href="progress-bars.html">Progress Bars</a></li>
+                    <li ><a href="dropdowns.html">Dropdowns</a></li>
+                    <li ><a href="tree-view.html">Tree View</a></li>
+                    <li ><a href="animations.html">Animations</a></li>
+                    <li ><a href="sliders.html">Sliders</a></li>
+                    <li ><a href="nestable-lists.html">Nestable Lists</a></li>
+                    <li ><a href="carousel.html">Carousel</a></li>
+                    <li ><a href="portlets.html">Portlets</a></li>
+                    <li ><a href="tooltips.html">Tooltips</a></li>
+                    <li ><a href="list-groups.html">List Groups</a></li>
+                    <li ><a href="breadcrumbs.html">Bread Crumbs</a></li>
+                    <li ><a href="tabs-accordions.html">Tabs & Accordions</a></li>
+                    <li ><a href="pagination.html">Pagination</a></li>
+                    <li ><a href="modals.html">Modals</a></li>
+                    <li ><a href="file-manager.html">File Manager</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseForms" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-list-outline"></i><span class="menu-name">Forms</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseForms">          
+                <ul class="list-unstyled">
+                    <li ><a href="form-elements.html">Form Elements</a></li>
+                    <li ><a href="input-groups.html">Input Groups</a></li>
+                    <li ><a href="dropzone-file-upload.html">Dropzone File Upload</a></li>
+                    <li ><a href="form-validation.html">Validations</a></li>
+                    <li ><a href="form-wizard.html">Wizards</a></li>
+                    <li class="active"><a href="image-crop.html">Image Crop</a></li>
+                    <li ><a href="wysiwig.html">WYSIWIG</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseExtras" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-football-outline"></i><span class="menu-name">Extras</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseExtras">          
+                <ul class="list-unstyled">
+                    <li ><a href="register.html">Register</a></li>
+                    <li ><a href="login.html">Login</a></li>
+                    <li ><a href="lock-screen.html">Lock Screen</a></li>
+                    <li ><a href="forgot-password.html">Forgot Password</a></li>
+                    <li ><a href="faq.html">Faq</a></li>
+                    <li ><a href="404.html">404</a></li>
+                    <li ><a href="505.html">505</a></li>
+                    <li ><a href="template.html">Template</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseTables" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-grid-view-outline"></i><span class="menu-name">Tables</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseTables">          
+                <ul class="list-unstyled">
+                    <li ><a href="basic-tables.html">Basic</a></li>
+                    <li ><a href="dynamic-tables.html">Dynamic</a></li>
+                    <li ><a href="editable-tables.html">Editable</a></li>
+                    <li ><a href="users-table.html">Users</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseGraphs" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-analytics-outline"></i><span class="menu-name">Graphs</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseGraphs">          
+                <ul class="list-unstyled">
+                    <li ><a href="line-graphs.html">Line Graphs</a></li>
+                    <li ><a href="area-graphs.html">Area Graphs</a></li>
+                    <li ><a href="bar-graphs.html">Bar Graphs</a></li>
+                    <li ><a href="other-graphs.html">Other Graphs</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseMaps" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-location-outline"></i><span class="menu-name">Maps</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseMaps">          
+                <ul class="list-unstyled">
+                    <li>
+                        <a data-toggle="collapse" href="#collapseGoogleMaps" aria-expanded="false" data-parent="#left-sidebar">
+                            Google Maps
+                            <i class="ion-chevron-right menu-chevron"></i>
+                        </a>          
+                        <div class="collapse" id="collapseGoogleMaps">          
+                            <ul class="list-unstyled">
+                                <li ><a href="basic-maps.html">Basic Maps</a></li>
+                                <li ><a href="markers-maps.html">Markers Maps</a></li>
+                                <li ><a href="routes-maps.html">Routes Maps</a></li>
+                            </ul>          
+                        </div>
+                    </li>
+                    <li ><a href="vector-maps.html">Vector Maps</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseIcons" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-americanfootball-outline"></i><span class="menu-name">Icons</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseIcons">          
+                <ul class="list-unstyled">
+                    <li ><a href="font-awesome.html">Font Awesome</a></li>
+                    <li ><a href="ion-icons.html">Ion Icons</a></li>
+                    <li ><a href="themify-icons.html">Themify Icons</a></li>
+                    
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseMenuLevels" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-keypad-outline"></i><span class="menu-name">Menu Levels</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseMenuLevels">          
+                <ul class="list-unstyled">
+                    <li>
+                        <a data-toggle="collapse" href="#collapseTryMe" aria-expanded="false" data-parent="#left-sidebar">Try me here
+                        <i class="ion-chevron-right menu-chevron"></i>
+                        </a>          
+                        <div class="collapse" id="collapseTryMe">          
+                            <ul class="list-unstyled">
+                                <li>
+                                <a data-toggle="collapse" href="#collapseOnceAgain" aria-expanded="false" data-parent="#left-sidebar">Once again please <i class="ion-chevron-right menu-chevron"></i>
+                                    </a>          
+                                    <div class="collapse" id="collapseOnceAgain">          
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">You can add</a></li>
+                                            <li><a href="#">more than two</a></li>
+                                            <li><a href="#">leves of menu</a></li>
+                                        </ul>          
+                                    </div>
+                                </li>
+                                <li><a href="#">Menu Link</a></li>
+                                <li><a href="#">Menu Link</a></li>
+                            </ul>          
+                        </div>
+                    </li>
+                    <li class='current'><a class='current' href="index.html">Direct link</a></li>
+                </ul>          
+            </div>
+        </li>
+    </ul>
+</section>
+
+    <!--  .slideout-panel is dynamically added to below main tag -->
+    <main id="panel" class="-panel">
+
+        <header>
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <ul class="nav navbar-nav sidebar-btn">
+            <li><a href="#" class="toggle-leftsidebar"><i class="ion ion-navicon"></i></a></li>
+            <li><a href="#" class="toggle-leftbar"><i class="ion ion-navicon"></i></a></li>         
+            <li><a href="#" class="fullScreen"><i class="ion-arrow-expand"></i> </a></li>
+        </ul>
+
+        
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown knot-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Multi Level <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-left" role="menu">
+                        <li><a href="#">First Link</a></li>
+                        <li><a href="#">Second Link</a></li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Hover me for more options</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#">Second level</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">Even More..</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">3rd level</a></li>
+                                        <li><a href="#">3rd level</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Second level</a></li>
+                                <li><a href="#">Second level</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown knot-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Drop Me <b class="caret"></b></a>
+                    <ul class="dropdown-menu top-menu-drop dropdown-left">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search something here...">
+                </div>          
+            </form>
+            <ul class="nav navbar-nav navbar-right">              
+                <li class="dropdown knot-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ion-ios-bell-outline"></i> </a>
+                    <ul class="dropdown-menu notification-drop user-drop">
+                        <li class="heading">You have 20 unread messages !</li>
+                        <li>
+                            <ul class="scroll-block">
+                                <li><a href="#"><i class="ion-ios-star yellow"></i> <p class="text">You earned 32 points Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione et, dicta reiciendis architecto facere sapiente, sunt error, fuga beatae sint voluptates eos enim atque alias assumenda iste iusto nam. </p> <span class="time">6 minutes ago</span></a></li>
+                                <li><a href="#"><i class="ion-email-unread red"></i> 36 new mails <span class="time">1 day ago</span></a></li>
+                                <li><a href="#"><i class="ion-happy blue"></i> Iris accepted your friendship <span class="time">2 days ago</span></a></li>
+                                <li><a href="#"><i class="ion-help-buoy sky"></i> Phone number updated <span class="time">3 days ago</span></a></li>
+                                <li><a href="#"><i class="ion-settings red"></i> Phone number updated <span class="time">3 days ago</span></a></li>
+                                <li><a href="#"><i class="ion-briefcase green"></i> Phone number updated <span class="time">3 days ago</span></a></li>
+                                <li><a href="#"><i class="ion-calendar torque"></i> Phone number updated <span class="time">3 days ago</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="footer"><a href="#">See all notifications</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown knot-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ion-ios-email-outline"></i> </a>
+                    <ul class="dropdown-menu message-drop">
+                        <li>
+                            <ul class="scroll-block">
+                                <li>
+                                    <a href="mailbox.html">
+                                        <span class="user-avatar">
+                                            <img src="assets/images/avatar.png" alt="avatar" class="message-img">
+                                            <span class="status away"></span>
+                                        </span>                      
+                                        <p class="name">Denver Wizard</p>
+                                        <p class="text">You earned 32 points Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione et, dicta reiciendis architecto facere sapiente, sunt error, fuga beatae sint voluptates eos enim atque alias assumenda iste iusto nam. </p> 
+                                        <p class="time">2 minutes ago</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailbox.html">
+                                        <span class="user-avatar">
+                                            <img src="assets/images/avatar.png" alt="avatar" class="message-img">
+                                            <span class="status online"></span>
+                                        </span>                      
+                                        <p class="name">Richard Henry</p>
+                                        <p class="text">You earned 32 points Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione et, dicta reiciendis architecto facere sapiente, sunt error, fuga beatae sint voluptates eos enim atque alias assumenda iste iusto nam. </p> 
+                                        <p class="time">2 minutes ago</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailbox.html">
+                                        <span class="user-avatar">
+                                            <img src="assets/images/avatar.png" alt="avatar" class="message-img">
+                                            <span class="status away"></span>
+                                        </span>                      
+                                        <p class="name">Sharpova</p>
+                                        <p class="text">You earned 32 points Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione et, dicta reiciendis architecto facere sapiente, sunt error, fuga beatae sint voluptates eos enim atque alias assumenda iste iusto nam. </p> 
+                                        <p class="time">2 minutes ago</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailbox.html">
+                                        <span class="user-avatar">
+                                            <img src="assets/images/avatar.png" alt="avatar" class="message-img">
+                                            <span class="status offline"></span>
+                                        </span>                      
+                                        <p class="name">Harley</p>
+                                        <p class="text">You earned 32 points Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione et, dicta reiciendis architecto facere sapiente, sunt error, fuga beatae sint voluptates eos enim atque alias assumenda iste iusto nam. </p> 
+                                        <p class="time">2 minutes ago</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailbox.html">
+                                        <span class="user-avatar">
+                                            <img src="assets/images/avatar.png" alt="avatar" class="message-img">
+                                            <span class="status away"></span>
+                                        </span>                      
+                                        <p class="name">Karthik nayak</p>
+                                        <p class="text">You earned 32 points Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione et, dicta reiciendis architecto facere sapiente, sunt error, fuga beatae sint voluptates eos enim atque alias assumenda iste iusto nam. </p> 
+                                        <p class="time">2 minutes ago</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <li class="footer"><a href="#">See all notifications</a></li>
+                        </ul>
+                    </li>            
+                <li class="dropdown knot-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ion-ios-person-outline"></i> </a>
+                        <ul class="dropdown-menu user-drop">
+                            <li><a href="profile.html"><i class="ion-help-buoy torque"></i> Settings</a></li>
+                            <li><a href="profile.html"><i class="ion-alert-circled blue"></i> Privacy Settings</a></li>
+                            <li><a href="profile.html"><i class="ion-document-text yellow"></i> My Notes</a></li>
+                            <li><a href="profile.html"><i class="ion-hammer red"></i> Edit</a></li>
+                            <li><a href="lock-screen.html"><i class="ion-power sky"></i> Logout</a></li>
+                        </ul>
+                    </li>
+                <li><a href="#" class="toggle-rightbar" ><i class="ion-ios-settings-strong"></i></a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+</header>
+
+
+        <div class="content-holder">          
+
+            
+
+       	<div class="breadcrump-block">
+         <ol class="breadcrumb">                 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Forms</a></li>        
+            <li class="active"><a href="#">Image Crop</a></li>        
+          </ol>      
+        </div>   
+        <!-- Page Header -->
+        <div class="page_header">
+            <div class="col-md-4">
+              <div class="pull-left">
+                  <div class="main-text">Image Crop</div>
+                  <p class="block">
+                      We have implemented the art and technique of cropping an image in various directions and rotating it in any direction you would like to.
+                  </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="text-center">
+                <i class="fa fa-crop page_header_icon"></i>
+                
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="right pull-right">
+                  <ul class="right_bar">
+                      <li class="list-unstyled"><i class="ion ion-ios-checkmark-empty"></i> &nbsp;Cropper Plugin</li>
+                      <li class="list-unstyled"><i class="ion ion-ios-checkmark-empty"></i> &nbsp;Zooming</li>
+                      <li class="list-unstyled"><i class="ion ion-ios-checkmark-empty"></i> &nbsp;Cropping</li>
+                      <li class="list-unstyled"><i class="ion ion-ios-checkmark-empty"></i> &nbsp;Resizable</li>
+                      <li class="list-unstyled"><i class="ion ion-ios-checkmark-empty"></i> &nbsp;and more...</li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+        <!-- /pageheader -->     
+        
+        <div class="row">
+          <div class="col-md-12 panel-parent">
+            <!-- panel starts here-->
+            <div class="panel knot-panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  Advanced Image Cropping
+                  <span class="panel-options">
+                   <a href="#" class="panel-refresh">
+                    <i class="ion ion-refresh"></i> 
+                  </a>
+                  <a href="#" class="panel-minimize">
+                    <i class="ion ion-chevron-up"></i> 
+                  </a>
+                  <a href="#" class="panel-close">
+                    <i class="iion ion-close"></i> 
+                  </a>
+                </span>
+              </h3>
+            </div>
+            <div class="panel-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-7">
+                    <!-- <h3 class="page-header">Demo:</h3> -->
+                    <div class="img-container">
+                      <img src="assets/images/post1.jpg" alt="Picture">
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <!-- <h3 class="page-header">Preview:</h3> -->
+                    <div class="docs-preview clearfix">
+                      <div class="img-preview preview-lg"></div>
+                      <div class="img-preview preview-md"></div>
+                      <div class="img-preview preview-sm"></div>
+                      <div class="img-preview preview-xs"></div>
+                    </div>
+
+                    <!-- <h3 class="page-header">Data:</h3> -->
+                    <div class="docs-data">
+                      <div class="input-group">
+                        <label class="input-group-addon" for="dataX">X</label>
+                        <input class="form-control" id="dataX" type="text" placeholder="x">
+                        <span class="input-group-addon">px</span>
+                      </div>
+                      <div class="input-group">
+                        <label class="input-group-addon" for="dataY">Y</label>
+                        <input class="form-control" id="dataY" type="text" placeholder="y">
+                        <span class="input-group-addon">px</span>
+                      </div>
+                      <div class="input-group">
+                        <label class="input-group-addon" for="dataWidth">Width</label>
+                        <input class="form-control" id="dataWidth" type="text" placeholder="width">
+                        <span class="input-group-addon">px</span>
+                      </div>
+                      <div class="input-group">
+                        <label class="input-group-addon" for="dataHeight">Height</label>
+                        <input class="form-control" id="dataHeight" type="text" placeholder="height">
+                        <span class="input-group-addon">px</span>
+                      </div>
+                      <div class="input-group">
+                        <label class="input-group-addon" for="dataRotate">Rotate</label>
+                        <input class="form-control" id="dataRotate" type="text" placeholder="rotate">
+                        <span class="input-group-addon">deg</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-7 docs-buttons">
+                    <!-- <h3 class="page-header">Toolbar:</h3> -->
+                    <div class="btn-group">
+                      <button class="btn btn-primary" data-method="setDragMode" data-option="move" type="button" title="Move">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;setDragMode&quot;, &quot;move&quot;)">
+                          <span class="ion-arrow-move"></span>
+                        </span>
+                      </button>
+                      <button class="btn btn-primary" data-method="setDragMode" data-option="crop" type="button" title="Crop">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;setDragMode&quot;, &quot;crop&quot;)">
+                          <span class="ion-crop"></span>
+                        </span>
+                      </button>
+                      <button class="btn btn-primary" data-method="zoom" data-option="0.1" type="button" title="Zoom In">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;zoom&quot;, 0.1)">
+                          <span class="ion-plus-circled"></span>
+                        </span>
+                      </button>
+                      <button class="btn btn-primary" data-method="zoom" data-option="-0.1" type="button" title="Zoom Out">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;zoom&quot;, -0.1)">
+                          <span class="ion-minus-circled"></span>
+                        </span>
+                      </button>
+                      <button class="btn btn-primary" data-method="rotate" data-option="-45" type="button" title="Rotate Left">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;rotate&quot;, -45)">
+                          <span class="ion-arrow-return-left"></span>
+                        </span>
+                      </button>
+                      <button class="btn btn-primary" data-method="rotate" data-option="45" type="button" title="Rotate Right">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;rotate&quot;, 45)">
+                          <span class="ion-arrow-return-right"></span>
+                        </span>
+                      </button>
+                    </div>
+
+                    <div class="btn-group">
+                      <button class="btn btn-primary" data-method="disable" type="button" title="Disable">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;disable&quot;)">
+                          <span class="ion-locked"></span>
+                        </span>
+                      </button>
+                      <button class="btn btn-primary" data-method="enable" type="button" title="Enable">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;enable&quot;)">
+                          <span class="ion-unlocked"></span>
+                        </span>
+                      </button>
+                      <button class="btn btn-primary" data-method="clear" type="button" title="Clear">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;clear&quot;)">
+                          <span class="ion-close-round"></span>
+                        </span>
+                      </button>
+                      <button class="btn btn-primary" data-method="reset" type="button" title="Reset">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;reset&quot;)">
+                          <span class="ion-refresh"></span>
+                        </span>
+                      </button>
+                      <label class="btn btn-primary btn-upload" for="inputImage" title="Upload image file">
+                        <input class="sr-only" id="inputImage" name="file" type="file" accept="image/*">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="Import image with Blob URLs">
+                          <span class="ion-upload"></span>
+                        </span>
+                      </label>
+                      <button class="btn btn-primary" data-method="destroy" type="button" title="Destroy">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;destroy&quot;)">
+                          <span class="ion-power"></span>
+                        </span>
+                      </button>
+                    </div>
+
+                    <div class="btn-group btn-group-crop">
+                      <button class="btn btn-primary" data-method="getCroppedCanvas" type="button">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;getCroppedCanvas&quot;)">
+                          Get Cropped Canvas
+                        </span>
+                      </button>
+                      <button class="btn btn-primary" data-method="getCroppedCanvas" data-option="{ &quot;width&quot;: 160, &quot;height&quot;: 90 }" type="button">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;getCroppedCanvas&quot;, { &quot;width&quot;: 160, &quot;height&quot;: 90 })">
+                          160 &times; 90
+                        </span>
+                      </button>
+                      <button class="btn btn-primary" data-method="getCroppedCanvas" data-option="{ &quot;width&quot;: 320, &quot;height&quot;: 180 }" type="button">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;getCroppedCanvas&quot;, { &quot;width&quot;: 320, &quot;height&quot;: 180 })">
+                          320 &times; 180
+                        </span>
+                      </button>
+                    </div>
+
+                    <!-- Show the cropped image in modal -->
+                    <div class="modal fade docs-cropped" id="getCroppedCanvasModal" aria-hidden="true" aria-labelledby="getCroppedCanvasTitle" role="dialog" tabindex="-1">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button class="close" data-dismiss="modal" type="button" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="getCroppedCanvasTitle">Cropped</h4>
+                          </div>
+                          <div class="modal-body"></div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.modal -->
+
+                    <button class="btn btn-primary" data-method="getData" data-option="" data-target="#putData" type="button">
+                      <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;getData&quot;)">
+                        Get Data
+                      </span>
+                    </button>
+                    <button class="btn btn-primary" data-method="getImageData" data-option="" data-target="#putData" type="button">
+                      <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;getImageData&quot;)">
+                        Get Image Data
+                      </span>
+                    </button>
+                    <button class="btn btn-primary" data-method="getCanvasData" data-option="" data-target="#putData" type="button">
+                      <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;getCanvasData&quot;)">
+                        Get Canvas Data
+                      </span>
+                    </button>
+                    <button class="btn btn-primary" data-method="setCanvasData" data-target="#putData" type="button">
+                      <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;setCanvasData&quot;, data)">
+                        Set Canvas Data
+                      </span>
+                    </button>
+                    <button class="btn btn-primary" data-method="getCropBoxData" data-option="" data-target="#putData" type="button">
+                      <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;getCropBoxData&quot;)">
+                        Get Crop Box Data
+                      </span>
+                    </button>
+                    <button class="btn btn-primary" data-method="setCropBoxData" data-target="#putData" type="button">
+                      <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;setCropBoxData&quot;, data)">
+                        Set Crop Box Data
+                      </span>
+                    </button>
+                    <input class="form-control" id="putData" type="text" placeholder="Get data to here or set data with this value">
+
+                  </div>
+                  <!-- /.docs-buttons -->
+
+                  <div class="col-md-3 docs-toggles">
+                    <!-- <h3 class="page-header">Toggles:</h3> -->
+                    <div class="btn-group btn-group-justified" data-toggle="buttons">
+                      <label class="btn btn-primary active" data-method="setAspectRatio" data-option="1.7777777777777777" title="Set Aspect Ratio">
+                        <input class="sr-only" id="aspestRatio1" name="aspestRatio" value="1.7777777777777777" type="radio">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;setAspectRatio&quot;, 16 / 9)">
+                          16:9
+                        </span>
+                      </label>
+                      <label class="btn btn-primary" data-method="setAspectRatio" data-option="1.3333333333333333" title="Set Aspect Ratio">
+                        <input class="sr-only" id="aspestRatio2" name="aspestRatio" value="1.3333333333333333" type="radio">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;setAspectRatio&quot;, 4 / 3)">
+                          4:3
+                        </span>
+                      </label>
+                      <label class="btn btn-primary" data-method="setAspectRatio" data-option="1" title="Set Aspect Ratio">
+                        <input class="sr-only" id="aspestRatio3" name="aspestRatio" value="1" type="radio">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;setAspectRatio&quot;, 1 / 1)">
+                          1:1
+                        </span>
+                      </label>
+                      <label class="btn btn-primary" data-method="setAspectRatio" data-option="0.6666666666666666" title="Set Aspect Ratio">
+                        <input class="sr-only" id="aspestRatio4" name="aspestRatio" value="0.6666666666666666" type="radio">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;setAspectRatio&quot;, 2 / 3)">
+                          2:3
+                        </span>
+                      </label>
+                      <label class="btn btn-primary" data-method="setAspectRatio" data-option="NaN" title="Set Aspect Ratio">
+                        <input class="sr-only" id="aspestRatio5" name="aspestRatio" value="NaN" type="radio">
+                        <span class="docs-tooltip" data-toggle="tooltip" title="$().cropper(&quot;setAspectRatio&quot;, NaN)">
+                          Free
+                        </span>
+                      </label>
+                    </div>
+
+                    <div class="dropdown dropup docs-options">
+                      <button class="btn btn-primary btn-block dropdown-toggle" id="toggleOptions" type="button" data-toggle="dropdown" aria-expanded="true">
+                        Toggle Options
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="toggleOptions">
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="strict" checked> strict
+                          </label>
+                        </li>
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="responsive" checked> responsive
+                          </label>
+                        </li>
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="checkImageOrigin" checked> checkImageOrigin
+                          </label>
+                        </li>
+
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="modal" checked> modal
+                          </label>
+                        </li>
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="guides" checked> guides
+                          </label>
+                        </li>
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="highlight" checked> highlight
+                          </label>
+                        </li>
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="background" checked> background
+                          </label>
+                        </li>
+
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="autoCrop" checked> autoCrop
+                          </label>
+                        </li>
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="dragCrop" checked> dragCrop
+                          </label>
+                        </li>
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="movable" checked> movable
+                          </label>
+                        </li>
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="resizable" checked> resizable
+                          </label>
+                        </li>
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="rotatable" checked> rotatable
+                          </label>
+                        </li>
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="zoomable" checked> zoomable
+                          </label>
+                        </li>
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="touchDragZoom" checked> touchDragZoom
+                          </label>
+                        </li>
+                        <li role="presentation">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="option" value="mouseWheelZoom" checked> mouseWheelZoom
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- /.dropdown -->
+                  </div>
+                  <!-- /.docs-toggles -->
+                </div>
+              </div>
+              <!-- Alert -->
+
+            </div>
+          </div>
+          <!-- /panel -->
+        </div>
+        <!-- col-md-3 -->
+      </div>
+
+
+
+        </div>
+        
+    </main>
+
+    <section id="right-sidebar" class="right-sidebar light-version">   
+
+	<div class="right-header">
+		<a href="#" class="close-rightsidebar"><i class="ion-close-round"></i></a>
+		<a href="#" class="clear-all">clear all</a>
+	</div>   
+	<div role="tabpanel" class="right-sidebar-tab">
+
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs" role="tablist">
+			<li role="presentation"><a href="#v1" role="tab" data-toggle="tab"><i class="ion-cube"></i></a></li>
+			<li role="presentation"><a href="#v2" role="tab" data-toggle="tab"><i class="ion-paintbucket"></i></a></li>
+			<li role="presentation"><a href="#v3" role="tab" data-toggle="tab"><i class="ion-person-stalker"></i></a></li>
+			<li role="presentation" class="active"><a href="#v4" role="tab" data-toggle="tab"><i class="ion-gear-a"></i></a></li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane" id="v1">				
+				<ul class="list-group contacts-list">
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/one.png" alt="">
+							</div>
+							<span class="name">Richards carlson</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/two.png" alt="">
+							</div>
+							<span class="name">Firing Arc</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/three.png" alt="">
+							</div>
+							<span class="name">strapzen</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/four.png" alt="">
+							</div>
+							<span class="name">Reeves</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/five.png" alt="">
+							</div>
+							<span class="name">Bootstrap Guru</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/six.png" alt="">
+							</div>
+							<span class="name">Carlson</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/seven.png" alt="">
+							</div>
+							<span class="name">Paris hilton</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/eight.png" alt="">
+							</div>
+							<span class="name">Henry Richards</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/nine.png" alt="">
+							</div>
+							<span class="name">Richie Rich</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="v2">
+				<ul class="list-group contacts-list">
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/seven.png" alt="">
+							</div>
+							<span class="name">Paris hilton</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/eight.png" alt="">
+							</div>
+							<span class="name">Henry Richards</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/nine.png" alt="">
+							</div>
+							<span class="name">Richie Rich</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/one.png" alt="">
+							</div>
+							<span class="name">Richards carlson</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/two.png" alt="">
+							</div>
+							<span class="name">Firing Arc</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/three.png" alt="">
+							</div>
+							<span class="name">strapzen</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/four.png" alt="">
+							</div>
+							<span class="name">Reeves</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/five.png" alt="">
+							</div>
+							<span class="name">Bootstrap Guru</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/six.png" alt="">
+							</div>
+							<span class="name">Carlson</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>					
+				</ul>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="v3">
+				<div class="panel-group knot-accordion knot-accordion-two" id="accordionOne" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingModalOne">
+							<h4 class="panel-title">
+								<a class="" data-toggle="collapse" data-parent="#accordionOne" href="#ResponseRate" aria-expanded="true">
+									Response Rate <i class="chevron ti-angle-down"></i>
+								</a>
+							</h4>
+						</div>
+						<div id="ResponseRate" class="panel-collapse collapse in" role="tabpanel" aria-expanded="true">
+							<div class="panel-body no_padding">
+								<div class="list-group contacts-list">
+									<p class="info-head">web developement</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%">											
+										</div>
+									</div>
+
+									<p class="info-head">Mobile developement</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%">											
+										</div>
+									</div>
+
+									<p class="info-head">Ruby developement</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 60%">											
+										</div>
+									</div>
+
+								</div>	
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordionOne" href="#DecreasedRating" aria-expanded="false" class="collapsed">
+									Decreased Rating <i class="chevron ti-angle-down"></i>
+								</a>
+							</h4>
+						</div>
+						<div id="DecreasedRating" class="panel-collapse collapse in" role="tabpanel" aria-expanded="false">
+
+							<div class="panel-body no_padding">
+								<div class="list-group contacts-list">
+									<p class="info-head">Target Audience</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%">											
+										</div>
+									</div>
+
+									<p class="info-head">Free Apps</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%">											
+										</div>
+									</div>
+
+									<p class="info-head">Downloads</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 60%">											
+										</div>
+									</div>
+
+								</div>		
+							</div>
+
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								<a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#FalseResults" aria-expanded="false">
+									False Results <i class="chevron ti-angle-down"></i>
+								</a>
+							</h4>
+						</div>
+						<div id="FalseResults" class="panel-collapse collapse" role="tabpanel" aria-expanded="false">									
+							<div class="panel-body no_padding">
+								<div class="list-group contacts-list">
+									<p class="info-head">Less</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%">											
+										</div>
+									</div>
+
+									<p class="info-head">Css</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%">											
+										</div>
+									</div>
+
+									<p class="info-head">Php</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 60%">											
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane active" id="v4">
+				<div class="settings">
+					<div class="form-group">
+						<div class="toggle-switch">
+							<label class="col-sm-8 control-label">Fixed Top NavBar</label>
+							<div class="col-sm-4">
+								<input type="checkbox" class="switchery toggle-body" id="topNav" > 
+							</div>
+						</div>
+						<div class="toggle-switch">
+							<label class="col-sm-8 control-label">Left Right Sidebar</label>
+							<div class="col-sm-4">
+								<input type="checkbox" class="switchery toggle-body" id="leftRightSidebar"  >
+							</div>
+						</div>
+						<div class="toggle-switch">
+							<label class="col-sm-8 control-label">Collapsed Sidebar</label>
+							<div class="col-sm-4">
+								<input type="checkbox" class="switchery toggle-body" id="collapsedSidebar" >
+								<div class="toggle">
+									<label for="collapsedSidebar"><i></i>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="toggle-switch">
+							<label class="col-sm-8 control-label">Horizontal Menu</label>
+							<div class="col-sm-4">
+								<input type="checkbox" class="switchery toggle-body" id="horizontalMenu" >
+								<div class="toggle">
+									<label for="horizontalMenu"><i></i>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="toggle-switch">
+							<label class="col-sm-8 control-label">Left Sidebar Light Version</label>
+							<div class="col-sm-4">
+								<input type="checkbox" class="switchery toggle-body" id="leftLightVersion" >
+								<div class="toggle">
+									<label for="leftLightVersion"><i></i>
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="toggle-switch">
+							<label class="col-sm-8 control-label">Right Sidebar Dark Version</label>
+							<div class="col-sm-4">
+								<input type="checkbox" class="switchery toggle-body" id="rightLightVersion" >
+								<div class="toggle">
+									<label for="rightLightVersion"><i></i>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- settings -->
+			</div>
+		</div>
+
+	</div>
+</section>
+    
+    <script src="assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/min/slideout-min.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/jquery.loadmask.min.js"></script>
+    <script src="assets/js/switchery.min.js"></script>
+    <script src="assets/js/jquery.fullscreen.min.js"></script>
+    
+	<script src="assets/js/cropper.js"></script>
+  <script src="assets/js/cropper-main.js"></script>
+
+
+    <script src="assets/js/core.min.js"></script>
+    
+</body>
+</html>

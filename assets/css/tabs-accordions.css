@@ -1,0 +1,230 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+/****************************************************
+                        Tabs
+****************************************************/
+.knot-tabs {
+  border-bottom: 1px solid #e0e4ec;
+}
+.knot-tabs > li a {
+  border-radius: 0px;
+  background-color: #eef0f4;
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+}
+.knot-tabs > li a:hover,
+.knot-tabs > li a:focus,
+.knot-tabs > li a:active {
+  background-color: #eef0f4;
+  border: 1px solid transparent;
+  color: #03cacc;
+}
+.knot-tabs > li.active a {
+  border: 1px solid #e0e4ec;
+  border-bottom: 1px solid transparent;
+  border-radius: 0px;
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+}
+.knot-tabs > li.active a:hover,
+.knot-tabs > li.active a:focus,
+.knot-tabs > li.active a:active {
+  border: 1px solid #e0e4ec;
+  border-bottom: 1px solid transparent;
+}
+.knot-tabs.right-tabs li {
+  float: right;
+}
+.knot-tabs.nav-justified li {
+  border-bottom: 1px solid #e0e4ec;
+}
+.knot-tabs.nav-justified li a {
+  border-radius: 0px;
+  border-bottom: 1px solid transparent;
+  color: #666666;
+  margin-left: 5px;
+}
+.knot-tabs.nav-justified li a:hover,
+.knot-tabs.nav-justified li a:focus {
+  border: 1px solid transparent;
+  color: #03cacc;
+}
+.knot-tabs.nav-justified li a.active {
+  border-bottom: 1px solid transparent;
+}
+.knot-tabs.nav-justified li.active {
+  border-bottom: 1px solid transparent;
+}
+.knot-tabs.nav-justified li.active a {
+  color: #666666;
+  border: 1px solid #e0e4ec;
+  border-bottom: 1px solid transparent;
+}
+.knot-tabs.nav-justified li.active a:hover,
+.knot-tabs.nav-justified li.active a:focus,
+.knot-tabs.nav-justified li.active a:active {
+  border: 1px solid #e0e4ec;
+  border-bottom: 1px solid transparent;
+}
+.knot-tabs.knot-noborder {
+  border-bottom: 1px solid transparent;
+}
+.knot-tabs.knot-noborder > li a {
+  border-radius: 0px;
+  background-color: #eef0f4;
+  border: 1px solid transparent;
+}
+.knot-tabs.knot-noborder > li a:hover,
+.knot-tabs.knot-noborder > li a:focus,
+.knot-tabs.knot-noborder > li a:active {
+  background-color: #eef0f4;
+  border: 1px solid transparent;
+  color: #03cacc;
+}
+.knot-tabs.knot-noborder > li.active a {
+  border: 1px solid transparent;
+  border-radius: 0px;
+  background-color: #e0e4ec;
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+}
+.knot-tabs.knot-noborder > li.active a:hover,
+.knot-tabs.knot-noborder > li.active a:focus,
+.knot-tabs.knot-noborder > li.active a:active {
+  border: 1px solid transparent;
+}
+.knot-tabs.knot-noborder.nav-justified li {
+  border-bottom: 1px solid transparent;
+}
+.knot-tabs.knot-vertical-tabs {
+  display: block;
+  border-bottom: 1px solid transparent;
+}
+.knot-tabs.knot-vertical-tabs > li {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.knot-tabs.knot-vertical-tabs > li.active a {
+  border: 1px solid #e0e4ec;
+  border-right: 1px solid transparent;
+}
+.knot-tabs.knot-vertical-tabs > li.active a:hover,
+.knot-tabs.knot-vertical-tabs > li.active a:focus {
+  border: 1px solid #e0e4ec;
+  border-right: 1px solid transparent;
+}
+.knot-tabs.knot-vertical-tabs > li.active a.active {
+  border-right: 1px solid transparent;
+}
+.knot-tabs.knot-vertical-tabs-right > li.active a {
+  border: 1px solid #e0e4ec;
+  border-left: 1px solid transparent;
+}
+.knot-tabs.knot-vertical-tabs-right > li.active a:hover,
+.knot-tabs.knot-vertical-tabs-right > li.active a:focus {
+  border: 1px solid #e0e4ec;
+  border-left: 1px solid transparent;
+}
+.knot-tabs.knot-vertical-tabs-right > li.active a.active {
+  border-left: 1px solid transparent;
+}
+.knot-tabs.widget-tabs {
+  border-bottom: 0px;
+}
+.knot-tabs.widget-tabs > li {
+  text-align: center;
+}
+.knot-tabs.widget-tabs > li a {
+  background-color: #ffffff;
+  margin: 0px;
+}
+.knot-tabs.widget-tabs > li a:hover {
+  background-color: #ffffff;
+  color: #2ecc71;
+}
+.knot-tabs.widget-tabs > li.active a {
+  background-color: #ffffff;
+  color: #2ecc71;
+  font-weight: 300;
+}
+.knot-tabs.widget-tabs.nav-justified li {
+  border-bottom: 0px;
+}
+.knot-tab-content > .tab-pane {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  padding-top: 14px;
+}
+.knot-tab-content.vertical-content > .tab-pane {
+  padding-top: 0px;
+}
+b {
+  font-weight: 400;
+}
+/****************************************************
+                        AccordionsTabs
+****************************************************/
+.knot-accordion .panel {
+  border-radius: 0px;
+  box-shadow: none;
+  border: 1px solid #e0e4ec;
+}
+.knot-accordion .panel .panel-heading {
+  background-color: #eef0f4;
+  border-radius: 0px;
+}
+.knot-accordion .panel .panel-heading .panel-title a {
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: block;
+}
+.knot-accordion .panel .panel-body {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  border-top: 1px solid #e0e4ec !important;
+}
+.knot-accordion-two .panel {
+  margin-top: 0px !important;
+  border-top: 1px solid transparent !important;
+}
+.knot-accordion-two .panel .panel-heading {
+  background-color: transparent;
+}
+.knot-accordion-two .panel .panel-body {
+  border-top: 1px solid transparent !important;
+  padding-top: 0px;
+}
+.knot-accordion-two .panel:first-child {
+  border-top: 1px solid #e0e4ec !important;
+}

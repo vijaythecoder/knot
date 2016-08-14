@@ -1,0 +1,396 @@
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+/*******************   Contents    *******************
+*  
+*  1. Profile Userbar
+*  2. Profile
+*  3. Profile Sidebar
+---------------------------------------------------------------------------------------------- */
+/*   Profile Userbar
+---------------------------------------------------------------------------------------------- */
+.profile-userbar .profile-user {
+  background-color: #eef0f4;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px;
+}
+.profile-userbar .profile-user .profile-image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 10px;
+}
+.profile-userbar .profile-user .profile-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.profile-userbar .profile-user .profile-name {
+  color: #666666;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.profile-userbar .profile-user .profile-name:hover {
+  color: #03cacc;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.profile-userbar .profile-user .profile-designation {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+.profile-userbar .profile-user .profile-location {
+  color: #03cacc;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+}
+.profile-userbar .profile-user .profile-location i {
+  font-size: 18px;
+  padding-right: 10px;
+}
+.profile-userbar .profile-menu {
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+.profile-userbar .profile-menu .profile-menu-title {
+  color: #666666;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+}
+.profile-userbar .profile-menu .profile-menu-items {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.profile-userbar .profile-menu .profile-menu-items li a {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.profile-userbar .profile-menu .profile-menu-items li a i {
+  font-size: 18px;
+  width: 30px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
+.profile-userbar .profile-menu .profile-menu-items li a:hover {
+  color: #03cacc;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+/*   Profile
+---------------------------------------------------------------------------------------------- */
+.profile-border {
+  border-left: 1px solid #e0e4ec;
+  border-right: 1px solid #e0e4ec;
+  padding: 0px 30px;
+}
+.profile-breadcrumb {
+  background-color: #ffffff;
+  border: 1px solid #e0e4ec;
+  margin: 0px 0px 10px;
+}
+.profile-breadcrumb li {
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  text-align: center;
+  width: 24%;
+  border-right: 1px solid #e0e4ec;
+  margin: 15px 0px;
+}
+.profile-breadcrumb li .profile-breadcrumb-value {
+  color: #8a8c8f;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.profile-breadcrumb li:last-child {
+  border-right-width: 0px;
+}
+.profile-status .profile-type {
+  margin: 0px;
+}
+.profile-status .profile-type li {
+  border: 1px solid #e0e4ec;
+  border-bottom: 0px;
+  padding: 0px;
+}
+.profile-status .profile-type li a i {
+  color: #8a8c8f;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+.profile-status .profile-type li a.active i {
+  color: #03cacc;
+  background-color: #eef0f4;
+}
+.profile-status .profile-type li a:hover i {
+  background-color: #eef0f4;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.profile-status .profile-share {
+  display: block;
+  float: right;
+  margin-top: -15px;
+}
+.profile-status .profile-post {
+  margin-top: 20px;
+}
+.profile-status .profile-post .profile-post-header {
+  border: 1px solid #e0e4ec;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.profile-status .profile-post .profile-post-header .profile-post-img {
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin-right: 10px;
+  background-color: #eef0f4;
+}
+.profile-status .profile-post .profile-post-header .profile-post-img img {
+  width: 100%;
+  height: auto;
+}
+.profile-status .profile-post .profile-post-header .profile-post-time {
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  padding-left: 10px;
+}
+.profile-status .profile-post .profile-post-header .profile-post-share {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  margin-left: 45px;
+}
+.profile-status .profile-post .profile-post-header .profile-post-share a {
+  color: #03cacc;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.profile-status .profile-post .profile-post-header .profile-post-share a:hover {
+  color: #02989a;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.profile-status .profile-post .profile-post-header .profile-post-via {
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.25px;
+  margin-left: 45px;
+}
+.profile-status .profile-post .profile-post-header .profile-post-via span {
+  color: #8a8c8f;
+}
+.profile-status .profile-post .profile-post-body {
+  padding: 15px;
+  border: 1px solid #e0e4ec;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  background-color: #ffffff;
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 26px;
+}
+.profile-status .profile-post .profile-post-body a {
+  color: #03cacc;
+  text-decoration: none;
+}
+.profile-status .profile-post .profile-post-body .profile-post-body-img {
+  padding-bottom: 10px;
+}
+.profile-status .profile-post .profile-post-body .profile-post-body-img a img {
+  width: 100%;
+  height: auto;
+}
+.profile-status .profile-post .profile-post-footer {
+  background-color: #f9fafc;
+  border: 1px solid #e0e4ec;
+  height: 32px;
+  margin-left: 0px;
+}
+.profile-status .profile-post .profile-post-footer > li a {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.profile-status .profile-post .profile-post-footer > li a i {
+  color: #666666;
+}
+.profile-status .profile-post .profile-post-footer > li a:hover {
+  color: #03cacc;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.profile-status .profile-post .profile-post-footer > li a:hover i {
+  color: #03cacc;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.profile-load {
+  margin: 25px 0px;
+}
+@media (max-width: 400px) {
+  .profile-breadcrumb li {
+    border: 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+/*   Profile Sidebar
+---------------------------------------------------------------------------------------------- */
+.profile-sidebar .profile-comment {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #e0e4ec;
+}
+.profile-sidebar .profile-comment .profile-sidebar-image {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 10px;
+}
+.profile-sidebar .profile-comment .profile-sidebar-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.profile-sidebar .profile-comment .profile-notif {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  margin-left: 50px;
+  display: block;
+}
+.profile-sidebar .profile-comment .profile-notif a {
+  color: #666666;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.profile-sidebar .profile-comment .profile-notif a:hover {
+  color: #03cacc;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.profile-sidebar .profile-comment .profile-notif .profile-time {
+  color: #666666;
+  font-size: 12px;
+  text-transform: none;
+  font-weight: 600;
+  padding-top: 6px;
+}
+.profile-sidebar .profile-chat {
+  padding: 10px;
+  padding-left: 0px;
+}
+.profile-sidebar .profile-chat .profile-chat-title {
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+}
+.profile-sidebar .profile-chat .profile-chat-items {
+  padding-top: 15px;
+}
+.profile-sidebar .profile-chat .profile-chat-items li {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.profile-sidebar .profile-chat .profile-chat-items li a {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.profile-sidebar .profile-chat .profile-chat-items li a:hover {
+  color: #666666;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.profile-sidebar .profile-chat .profile-chat-items li i {
+  font-size: 14px;
+  float: right;
+}
+.profile-sidebar .profile-chat .profile-chat-items li i.profile-online {
+  color: #4CAF50;
+}
+.profile-sidebar .profile-chat .profile-chat-items li i.profile-offline {
+  color: #B6B6B6;
+}
+.profile-sidebar .profile-chat .profile-chat-items li i.profile-busy {
+  color: #F44336;
+}
+.profile-sidebar .profile-chat .profile-chat-items li i.profile-away {
+  color: #FFC107;
+}

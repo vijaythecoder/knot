@@ -1,0 +1,75 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+	font-size: 40px;
+}
+
+.navbar-inverse {
+	border-radius: 0px;
+}
+
+a {
+	transition: 0.5s;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.white-space {
+	font-size: 150px;
+	color: #D6D6D6;
+}
+
+.white-space:hover a {
+	color: green;
+}
+.panel-heading{
+	min-height: 50px;
+}
+.new-item-header{
+	margin-top: 9px;
+}
+
+.list-group-item {
+	color: #424242;
+	margin: 10px auto;
+}
+
+.arrow {
+	font-size: 20px;
+	margin-right: 20px;
+	transition: 0.5s;
+}
+
+.arrow:hover {
+    color: red;
+}
+
+.pencil {
+	font-size:30px; 
+	margin-top:-15px;
+	transition: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.archived {
+	background: red;
+}
+
+.destroy-task {
+    font-size: 20px;
+}
+
+.destroy-task:hover {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}

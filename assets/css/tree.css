@@ -1,0 +1,97 @@
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+/*   Dragable Tree
+---------------------------------------------------------------------------------------------- */
+ul.jqtree-tree .jqtree-toggler {
+  color: #03cacc !important;
+}
+.jqtree-tree .jqtree-title {
+  color: #666666 !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+ul.jqtree-tree li.jqtree-ghost span.jqtree-circle {
+  border: solid 2px #03cacc !important;
+}
+ul.jqtree-tree span.jqtree-border {
+  border: solid 2px #03cacc !important;
+}
+ul.jqtree-tree li.jqtree-ghost span.jqtree-line {
+  background-color: #03cacc !important;
+}
+ul.jqtree-tree li.jqtree-selected > .jqtree-element,
+ul.jqtree-tree li.jqtree-selected > .jqtree-element:hover {
+  background-color: none !important;
+  background: none !important;
+}
+ul.jqtree-tree .jqtree-moving > .jqtree-element .jqtree-title {
+  outline: dashed 1px #03cacc !important;
+}
+/*   Tree
+---------------------------------------------------------------------------------------------- */
+.tree {
+  border: none;
+}
+.tree .parent {
+  background: #65bd77;
+  color: #ffffff;
+  border: 1px solid #65bd77;
+}
+.tree .parent:hover {
+  background: #53b567 !important;
+  border: 1px solid #65bd77 !important;
+  color: #ffffff !important;
+}
+.tree .child {
+  background: #ffbc1a;
+  color: #ffffff;
+  border: 1px solid #ffbc1a;
+}
+.tree .child:hover {
+  background: #ffb500 !important;
+  border: 1px solid #ffbc1a !important;
+  color: #ffffff !important;
+}
+.tree .grandchild {
+  background: #fa6251;
+  color: #ffffff;
+  border: 1px solid #fa6251;
+}
+.tree .grandchild:hover {
+  background: #f94c38 !important;
+  border: 1px solid #fa6251 !important;
+  color: #ffffff !important;
+}
+.tree .great-grandchild {
+  background: #5798fb;
+  color: #ffffff;
+  border: 1px solid #5798fb;
+}
+.tree .great-grandchild:hover {
+  background: #3e89fa !important;
+  border: 1px solid #5798fb !important;
+  color: #ffffff !important;
+}
+.tree .greatgrand-grandchild {
+  background: #85b6fe;
+  color: #ffffff;
+  border: 1px solid #85b6fe;
+}
+.tree .fa-folder-open {
+  color: #ffffff;
+}
+.tree li span {
+  border-radius: 3px !important;
+}
+.tree ul {
+  padding-left: 40px;
+}

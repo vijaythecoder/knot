@@ -1,0 +1,8 @@
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: variable @contentColor is undefined in \\Volumes\\Secondary\\httpdocs\\piluku\\assets\\less\\wysiwig.less on line 10, column 10: \A 9 	{ \A 10 		color: @contentColor; \A 11 		font-family: @contentFont; \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

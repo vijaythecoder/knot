@@ -1,0 +1,9 @@
+.items li {
+	padding: 6px;
+	margin: 10px;
+}
+
+.items li img{
+	width: 80px;
+	border-radius: 50%;
+}

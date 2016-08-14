@@ -1,0 +1,312 @@
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+/*******************   Contents    *******************
+*  
+*  1. Panel Heading
+*  2. Info Boxes 1
+*  3. Info Boxes 2
+*  4. Info Boxes 3
+---------------------------------------------------------------------------------------------- */
+/*   Panel Heading
+---------------------------------------------------------------------------------------------- */
+.paneltype-heading {
+  color: #666666;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  line-height: 26px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+/*   Info Boxes 1
+---------------------------------------------------------------------------------------------- */
+.primary-info-icon {
+  color: #03cacc;
+}
+.red-info-icon {
+  color: #fc6042;
+}
+.yellow-info-icon {
+  color: #f7ca18;
+}
+.green-info-icon {
+  color: #2ecc71;
+}
+.primarybg-info {
+  background-color: #03cacc;
+}
+.redbg-info {
+  background-color: #fc6042;
+}
+.yellowbg-info {
+  background-color: #f7ca18;
+}
+.greenbg-info {
+  background-color: #2ecc71;
+}
+.info-one {
+  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  text-align: center;
+}
+.info-one > .logo {
+  padding-bottom: 40px;
+}
+.info-one > .logo i {
+  font-size: 52px;
+  color: #ffffff;
+}
+.info-one p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+/*   Info Boxes 2
+---------------------------------------------------------------------------------------------- */
+.info-two {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+.info-two .info-text {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  padding: 20px 10px 80px;
+}
+.info-two .info-bottom {
+  border-top: 1px solid #e0e4ec;
+}
+.info-two .info-bottom ul {
+  margin-bottom: 0px;
+  padding: 10px;
+}
+.info-two .info-bottom ul li a {
+  text-decoration: none;
+}
+.info-two .info-bottom ul li a i {
+  font-size: 16px;
+  color: #cccccc;
+}
+.info-two .info-bottom.primary-bottom {
+  border-bottom: 4px solid #03cacc;
+}
+.info-two .info-bottom.red-bottom {
+  border-bottom: 4px solid #fc6042;
+}
+.info-two .info-bottom.yellow-bottom {
+  border-bottom: 4px solid #f7ca18;
+}
+.info-two .info-bottom.green-bottom {
+  border-bottom: 4px solid #2ecc71;
+}
+/*   Info Boxes 3
+---------------------------------------------------------------------------------------------- */
+.info-three {
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  position: relative;
+}
+.info-three .logo-three {
+  float: right;
+  transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  /* IE 9 */
+  -webkit-transform: rotate(30deg);
+  /* Chrome, Safari, Opera */
+}
+.info-three .logo-three i {
+  font-size: 46px;
+}
+.info-three .logo-three i.dark-info-green {
+  color: #25a25a;
+}
+.info-three .logo-three i.dark-info-red {
+  color: #d52503;
+}
+.info-three .logo-three i.dark-info-yellow {
+  color: #bc9707;
+}
+.info-three .logo-three i.dark-info-primary {
+  color: #027f81;
+}
+.info-three p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*   Info Boxes 4
+---------------------------------------------------------------------------------------------- */
+.info-four {
+  background-color: #ffffff;
+  padding: 15px 0px;
+}
+.info-four .logo-four {
+  float: left;
+  padding-left: 15px;
+  padding-top: 6px;
+}
+.info-four .logo-four i {
+  font-size: 36px;
+}
+.info-four .info-four-content {
+  margin-left: 60px;
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+}
+.info-four .info-four-content p {
+  margin-bottom: 0px;
+  color: #8a8c8f;
+  font-size: 14px;
+  font-weight: 400;
+}
+.info-four.primary-left {
+  border-left: 3px solid #03cacc;
+}
+.info-four.red-left {
+  border-left: 3px solid #fc6042;
+}
+.info-four.yellow-left {
+  border-left: 3px solid #f7ca18;
+}
+.info-four.green-left {
+  border-left: 3px solid #2ecc71;
+}
+/*   Info Boxes 5
+---------------------------------------------------------------------------------------------- */
+.info-five {
+  margin-bottom: 10px;
+}
+.info-five .info-top {
+  position: relative;
+}
+.info-five .info-top .info-img img {
+  width: 100%;
+}
+.info-five .info-top .info-img.image-border-red {
+  border: 4px solid #fc6042;
+}
+.info-five .info-top .info-img.image-border-green {
+  border: 4px solid #2ecc71;
+}
+.info-five .info-top .info-img.image-border-yellow {
+  border: 4px solid #f7ca18;
+}
+.info-five .info-top .info-social {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+}
+.info-five .info-top .info-social li {
+  padding: 5px 8px;
+}
+.info-five .info-top .info-social li a {
+  text-decoration: none;
+  color: #cccccc;
+}
+.info-five .info-top .info-social li a i {
+  font-size: 18px;
+}
+.info-five .info-top .info-social li a:hover {
+  color: #666666;
+}
+.info-five .info-bottom-five {
+  padding: 30px;
+  text-align: center;
+}
+.info-five .info-bottom-five .info-bottom-head {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  line-height: 26px;
+  padding-bottom: 15px;
+}
+.info-five .info-bottom-five .info-bottom-content {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 22px;
+}
+/*   Info Boxes 6
+---------------------------------------------------------------------------------------------- */
+/*   Info Boxes 3
+---------------------------------------------------------------------------------------------- */
+.info-six {
+  margin-top: 7px;
+  margin-bottom: 18px;
+  padding: 20px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  position: relative;
+}
+.info-six .info-icon {
+  float: left;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+}
+.info-six .info-icon i {
+  font-size: 24px;
+  line-height: 50px;
+}
+.info-six .info-icon i.dark-info-green {
+  color: #25a25a;
+}
+.info-six .info-icon i.dark-info-red {
+  color: #d52503;
+}
+.info-six .info-icon i.dark-info-yellow {
+  color: #bc9707;
+}
+.info-six .info-icon i.dark-info-primary {
+  color: #027f81;
+}
+.info-six .number {
+  margin-left: 10px;
+  font-size: 28px;
+}
+.info-six p {
+  margin-bottom: 0px;
+  margin-left: 60px;
+  font-size: 12px;
+  font-weight: 600;
+}

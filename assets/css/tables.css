@@ -1,0 +1,180 @@
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 2.42857143;
+  vertical-align: top;
+  border-top: 1px solid #e0e4ec;
+  color: #8a8c8f;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #e0e4ec;
+  color: #404040;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+.table .table {
+  background-color: #fff;
+}
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+.table-bordered {
+  border: 1px solid #e0e4ec;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #e0e4ec;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 1px;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f9fafc;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #f6f7fa;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.manage_buttons {
+  margin: -15px !important;
+  margin-right: -30px !important;
+  background-color: #FFFFFF;
+}
+.manage_buttons .search {
+  padding: 20px;
+  left: 30px;
+}
+.manage_buttons .search input[type="text"] {
+  border: 0;
+  border-left: 1px solid #e0e4ec;
+}
+.manage_buttons .buttons-list {
+  padding: 20px;
+}
+.manage_buttons .buttons-list .pull-right-btn {
+  text-align: right;
+}
+.manage_buttons .buttons-list a {
+  margin-right: 5px;
+  border-radius: 3px;
+}
+.manage_buttons .buttons-list button.btn {
+  margin-left: 5px;
+}
+.manage_buttons .buttons-list .dropdown-toggle {
+  box-shadow: none !important;
+  background-color: #f2f6f9 !important;
+  min-width: 58px;
+  height: 35px;
+  background-color: #F9FBFC;
+  border: 1px solid #D7DCE5;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  color: #333333;
+}
+.manage_buttons .buttons-list .dropdown-menu {
+  left: auto;
+  right: 0;
+  top: 58px;
+}
+.manage_buttons .buttons-list.config-page .dropdown-menu {
+  top: 75px;
+}
+.panel-users {
+  margin-top: 30px;
+}
+.panel-users table tbody tr.active td,
+.panel-users table thead tr.active td,
+.panel-users table tbody tr.active th,
+.panel-users table thead tr.active th {
+  background-color: #f2f6f9;
+}
+.panel-users table tbody tr.active:hover td,
+.panel-users table thead tr.active:hover td,
+.panel-users table tbody tr.active:focus td,
+.panel-users table thead tr.active:focus td,
+.panel-users table tbody tr.active:active td,
+.panel-users table thead tr.active:active td,
+.panel-users table tbody tr.active:hover th,
+.panel-users table thead tr.active:hover th,
+.panel-users table tbody tr.active:focus th,
+.panel-users table thead tr.active:focus th,
+.panel-users table tbody tr.active:active th,
+.panel-users table thead tr.active:active th {
+  background-color: #f2f6f9;
+}
+.panel-users table tbody tr:hover td,
+.panel-users table thead tr:hover td,
+.panel-users table tbody tr:focus td,
+.panel-users table thead tr:focus td,
+.panel-users table tbody tr:active td,
+.panel-users table thead tr:active td,
+.panel-users table tbody tr:hover th,
+.panel-users table thead tr:hover th,
+.panel-users table tbody tr:focus th,
+.panel-users table thead tr:focus th,
+.panel-users table tbody tr:active th,
+.panel-users table thead tr:active th {
+  background-color: #f2f6f9;
+}
+.panel-users table tbody tr td,
+.panel-users table thead tr td,
+.panel-users table tbody tr th,
+.panel-users table thead tr th {
+  vertical-align: middle;
+}
+.panel-users table tbody tr td img,
+.panel-users table thead tr td img,
+.panel-users table tbody tr th img,
+.panel-users table thead tr th img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.nopadding {
+  padding: 0 !important;
+}
+.user-form-margin {
+  margin-top: 22px;
+}

@@ -1,0 +1,260 @@
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+/*   Buttons
+---------------------------------------------------------------------------------------------- */
+.btn {
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  outline: 0;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 5px;
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: 0 !important;
+}
+.btn.btn-radius {
+  border-radius: 3px;
+}
+.btn.btn-rounded {
+  border-radius: 30px;
+}
+.btn-group {
+  margin-bottom: 5px;
+}
+.btn-group .btn-default {
+  border: 1px solid #c0c8d9;
+}
+.btn-primary {
+  background-color: #03cacc;
+  border-color: #03b1b3;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #02989a;
+  border-color: #03b1b3;
+}
+.btn-success {
+  background-color: #2ecc71;
+  border-color: #29b765;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+  background-color: #25a25a;
+  border-color: #29b765;
+}
+.btn-info {
+  background-color: #2c82c9;
+  border-color: #2774b4;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active {
+  background-color: #23679f;
+  border-color: #2774b4;
+}
+.btn-warning {
+  background-color: #f7ca18;
+  border-color: #edbf08;
+}
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active {
+  background-color: #d5ab07;
+  border-color: #edbf08;
+}
+.btn-danger {
+  background-color: #fc6042;
+  border-color: #fc4b29;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+  background-color: #fb3610;
+  border-color: #fc4b29;
+}
+.btn-grey {
+  background-color: #6c7a89;
+  border-color: #616d7b;
+}
+.btn-grey:hover,
+.btn-grey:focus,
+.btn-grey:active {
+  background-color: #56616c;
+  color: #FFFFFF;
+  border-color: #616d7b;
+}
+.btn-default {
+  background-color: #FFFFFF;
+  color: #666666;
+  border: 1px solid #e0e4ec;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  background-color: #e6e6e6;
+}
+.btn-default.disabled,
+.btn-default.disabled.active,
+.btn-default.disabled.focus,
+.btn-default.disabled:active,
+.btn-default.disabled:focus,
+.btn-default.disabled:hover,
+.btn-default[disabled],
+.btn-default[disabled].active,
+.btn-default[disabled].focus,
+.btn-default[disabled]:active,
+.btn-default[disabled]:focus,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default,
+fieldset[disabled] .btn-default.active,
+fieldset[disabled] .btn-default.focus,
+fieldset[disabled] .btn-default:active,
+fieldset[disabled] .btn-default:focus,
+fieldset[disabled] .btn-default:hover {
+  background-color: #c7cedc;
+}
+/*dropdowns*/
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary {
+  background-color: #02989a;
+}
+.btn-success.active,
+.btn-success.focus,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:hover,
+.open > .dropdown-toggle.btn-success {
+  background-color: #25a25a;
+}
+.btn-info.active,
+.btn-info.focus,
+.btn-info:active,
+.btn-info:focus,
+.btn-info:hover,
+.open > .dropdown-toggle.btn-info {
+  background-color: #23679f;
+}
+.btn-danger.active,
+.btn-danger.focus,
+.btn-danger:active,
+.btn-danger:focus,
+.btn-danger:hover,
+.open > .dropdown-toggle.btn-danger {
+  background-color: #fb3610;
+}
+.btn-warning.active,
+.btn-warning.focus,
+.btn-warning:active,
+.btn-warning:focus,
+.btn-warning:hover,
+.open > .dropdown-toggle.btn-warning {
+  background-color: #d5ab07;
+}
+.btn-default.active,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:hover,
+.open > .dropdown-toggle.btn-default {
+  background-color: #e6e6e6;
+}
+/*loading button effects*/
+@-webkit-keyframes ld {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+@-moz-keyframes ld {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+@-o-keyframes ld {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+@keyframes ld {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+.btn-progress {
+  position: relative;
+  opacity: .8;
+  color: transparent !important;
+  text-shadow: none !important;
+}
+.btn-progress:hover,
+.btn-progress:active,
+.btn-progress:focus {
+  cursor: default;
+  color: transparent;
+  outline: none !important;
+  box-shadow: none;
+}
+.btn-progress:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  background: transparent;
+  border: 1px solid #fff;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  box-sizing: border-box;
+  top: 50%;
+  left: 50%;
+  margin-top: -12px;
+  margin-left: -12px;
+  width: 24px;
+  height: 24px;
+  -webkit-animation: ld 1s ease-in-out infinite;
+  -moz-animation: ld 1s ease-in-out infinite;
+  -o-animation: ld 1s ease-in-out infinite;
+  animation: ld 1s ease-in-out infinite;
+}

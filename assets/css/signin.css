@@ -1,0 +1,333 @@
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+/*******************   Contents    *******************
+*  
+*  1. Sign In, Sign Up and Forgot Password
+*  2. Lockscreen
+*  3. Error Page
+---------------------------------------------------------------------------------------------- */
+/*   Sign In, Sign Up and Forgot Password
+---------------------------------------------------------------------------------------------- */
+.signinbg {
+  background: url(../images/signinbg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+}
+.signinbg.signupbg {
+  background: url(../images/signupbg.jpg);
+  background-position: left top;
+}
+.signinbg.forgot-bg {
+  background: url(../images/forgotpassword.jpg);
+  background-position: center center;
+}
+.signinparent {
+  width: 400px;
+  display: table;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.signinparent .signin {
+  background-color: #ffffff;
+  border: 1px solid #e0e4ec;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: table;
+  width: 100%;
+}
+.signinparent .signin .signin-image {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.signinparent .signin .signin-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #e0e4ec;
+}
+.signinparent .signin .signin-head {
+  padding-top: 10px;
+  color: #666666;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.signinparent .signin .signin-head.signin-alt {
+  color: #03cacc;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: none;
+}
+.signinparent .signin .signin-form {
+  padding: 0px 30px;
+}
+.signinparent .signin .signin-form .signin-enter {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.signinparent .signin .signin-form .signin-enter > label {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+.signinparent .signin .signin-form .signin-enter .signin-input {
+  border: 0px;
+  border-bottom: 2px solid #e0e4ec;
+  background-color: transparent;
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+.signinparent .signin .signin-form .signin-enter .signin-input:focus {
+  border: 0px;
+  border-bottom: 2px solid #03cacc;
+}
+.signinparent .signin .signin-form .signin-enter .signin-input.signin-error {
+  border-bottom: 2px solid #fc6042;
+  margin-bottom: 10px;
+}
+.signinparent .signin .signin-form .signin-enter .error {
+  color: #8a8c8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.signinparent .sign-up {
+  background-color: #ffffff;
+  border: 1px solid #e0e4ec;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.signinparent .sign-up a {
+  color: #03cacc;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.signinparent .sign-up a:hover {
+  color: #07f9fb;
+}
+@media (max-width: 450px) {
+  .signinparent {
+    width: 320px;
+  }
+}
+/*   Lock Screen
+---------------------------------------------------------------------------------------------- */
+.lockscreen-bg {
+  background-color: #374046;
+  width: 100%;
+  height: 100%;
+}
+.lockscreen-bg .lockscreen {
+  width: 420px;
+  display: table;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.lockscreen-bg .lockscreen .lockscreen-image {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.lockscreen-bg .lockscreen .lockscreen-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+}
+.lockscreen-bg .lockscreen .lockscreen-details {
+  margin-left: 120px;
+}
+.lockscreen-bg .lockscreen .lockscreen-details .lockscreen-user {
+  margin-top: 10px;
+  color: #fafafa;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.lockscreen-bg .lockscreen .lockscreen-details .lockscreen-input {
+  margin-top: 5px;
+  border: 0px;
+  border-bottom: 2px solid #e0e4ec;
+  background-color: #374046;
+  color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+.lockscreen-bg .lockscreen .lockscreen-details .lockscreen-input:focus {
+  border: 0px;
+  border-bottom: 2px solid #03cacc;
+}
+.lockscreen-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: block;
+}
+.lockscreen-bottom .lockscreen-icons {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.lockscreen-bottom .lockscreen-icons li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.lockscreen-bottom .lockscreen-icons li a {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.lockscreen-bottom .lockscreen-icons li a i {
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.lockscreen-bottom .lockscreen-icons li a span {
+  font-size: 12px;
+  padding: 3px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  vertical-align: super;
+  background-color: #374046;
+}
+.lockscreen-bottom .lockscreen-icons li a:hover i {
+  color: #03cacc;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.lockscreen-bottom .lockscreen-icons li a:hover span {
+  background-color: #03cacc;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.lockscreen-bottom .lockscreen-icons li.lockscreen-icon-right {
+  float: right;
+}
+@media (max-width: 470px) {
+  .lockscreen-bg .lockscreen {
+    width: 320px;
+  }
+}
+/*   Error Page
+---------------------------------------------------------------------------------------------- */
+.error-bg {
+  background-color: #133044;
+  width: 100%;
+  height: 100%;
+}
+.error-bg.error-bg-two {
+  background-color: transparent;
+}
+.error-block {
+  display: table;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+.error-block .error-head {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.error-block .error-head.error-head-two {
+  color: #666666;
+}
+.error-block .error-image {
+  width: 450px;
+  height: 100px;
+  display: table;
+  margin: 0 auto;
+}
+.error-block .error-image img {
+  width: 100%;
+  height: auto;
+}
+.error-block .error-link {
+  padding-top: 40px;
+  display: block;
+  color: #03cacc;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  ont-weight: 600;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: none;
+}
+.error-block .error-link:hover {
+  color: #07f9fb;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.error-block .error-btn {
+  margin-top: 40px;
+}
+@media (max-width: 479px) {
+  .error .error-image {
+    width: 320px;
+  }
+}

@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+.calendar {
+  font-family: 'Open Sans', sans-serif;
+}
+.event-color {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.external-event {
+  padding: 10px 12px;
+  color: #ffffff !important;
+}
+.external-event:hover {
+  opacity: 0.8;
+}
+.fc-toolbar .fc-state-default {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 2px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  background-color: #2ecc71;
+  height: 40px;
+  color: #ffffff;
+  outline: 0;
+  text-shadow: none;
+  box-shadow: none;
+}
+.fc-toolbar .fc-left .fc-today-button {
+  background-color: #03cacc;
+}
+.fc-toolbar .fc-state-active {
+  opacity: 0.6;
+}
+.fc-view-container {
+  background-color: #ffffff;
+}
+.fc-view-container .fc-day-grid-event {
+  padding: 6px 8px;
+  background-color: #03cacc;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 0px;
+}
+.fc-view-container table thead.fc-head tr td.fc-widget-header table thead tr th.fc-day-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.fc-view-container table tbody tr .fc-widget-content {
+  border: 1px solid #e0e4ec;
+  border-bottom: 0px;
+}
+.fc-view-container .fc-day {
+  padding: 2px;
+}

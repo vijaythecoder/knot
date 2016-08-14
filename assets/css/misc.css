@@ -1,0 +1,137 @@
+/*	 Import Fonts
+---------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,500,800,900,300,200,100);
+/*	 Font variables
+---------------------------------------------------------------------------------------------- */
+/*	 Important variables
+---------------------------------------------------------------------------------------------- */
+/*******************   Contents    *******************
+*  
+*  1. Wrapper
+*  2. slides
+*  3. Page Header
+---------------------------------------------------------------------------------------------- */
+/*   1. Wrapper
+---------------------------------------------------------------------------------------------- */
+.wrapper {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/*   2. slides
+---------------------------------------------------------------------------------------------- */
+.irs-from,
+.irs-to,
+.irs-single {
+  background: #03cacc !important;
+}
+.irs-from:after,
+.irs-to:after,
+.irs-single:after {
+  border-top-color: #03cacc !important;
+}
+/*   3. Page Header
+---------------------------------------------------------------------------------------------- */
+.page_header {
+  background-color: #FFFFFF;
+  min-height: 150px;
+  padding: 20px 10px;
+  margin: 5px 0 20px 5px;
+  display: table;
+  width: 100%;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.page_header .block {
+  font-size: 13px;
+  color: #8a8c8f;
+  line-height: 20px;
+}
+.page_header .page_header_icon {
+  font-size: 40px;
+  border: 1px solid #39fafc;
+  display: inline-block;
+  position: relative;
+  height: 65px;
+  line-height: 65px;
+  width: 65px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  color: #03cacc;
+  margin-top: 10px;
+}
+.page_header .main-text {
+  font-size: 30px;
+  margin: 0px;
+  color: #03cacc;
+}
+.page_header p.text {
+  clear: both;
+  font-size: 13px;
+  max-width: 400px;
+  margin-top: 10px;
+  color: #7d7f83;
+  margin-bottom: 10px;
+}
+.page_header .right_bar {
+  position: relative;
+  padding-top: 3px;
+}
+.page_header .right_bar li {
+  line-height: 26px;
+  color: #7d7f83;
+  margin-right: 20px;
+  font-size: 13px;
+}
+.page_header .right_bar li i {
+  color: #03cacc;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.page_header .right_bar li a {
+  color: #03cacc;
+  text-decoration: none;
+  text-transform: capitalize;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.page_header .right_bar li a.active {
+  color: #03cacc;
+}
+.page_header .right_bar li a.active:after {
+  content: "";
+  width: 4px;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: -1px;
+  background-color: #03cacc;
+}
+.page_header .right_bar:before {
+  content: "";
+  height: 100%;
+  width: 2px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+  background-color: #e0e4ec;
+}
+.page_header:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 15px 0px 15px;
+  border-color: #FFFFFF transparent transparent transparent;
+  position: absolute;
+  bottom: -15px;
+  left: 18px;
+}
+.list-types {
+  padding: 15px;
+}

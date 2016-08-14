@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title> Knot - Dashboard </title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="assets/css/preloader.css" type="text/css">
+
+    
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+     <script>
+        jQuery(window).load(function () {
+          $('.knot-preloader').addClass('hidden');
+        });
+      </script>
+
+</head>
+<body class="">
+    
+    <!-- To disable preloader, please remove knot-preloader block -->
+    <div class="knot-preloader text-center">
+        <img src="assets/images/macbookproretina.png" alt="">
+        <h1>Knot Responsive Admin Template</h1>
+      <div class="timer-loader">Loading…</div>
+    </div>
+
+
+    <section id="left-sidebar" class="left-sidebar">      
+
+    <div class="brand"> <img src="assets/images/logo.png" alt=""> </div>
+    <div class="brand-mini-bar"><img src="assets/images/mini-logo.png" alt=""></div>
+
+    <div class="avatar-block">
+        <img src="assets/images/avatar/one.png" alt="">
+        <a class="info" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" data-parent="#left-sidebar">
+            <h6>Welcome</h6>          
+            <h3>Richards</h3>          
+            <div class="edit"><i class="ion-android-options"></i></div> 
+        </a> 
+        <!-- info -->
+        <div class="collapse avtar-settings" id="collapseExample1">          
+            <ul class="list-unstyled">
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Time</a></li>
+                <li><a href="#">Password</a></li>
+                <li><a href="#">Lock</a></li>
+            </ul>          
+        </div>      
+    </div>
+    <!-- avatar-block -->
+
+    <ul class="list-unstyled left-sidebar-menu">
+        <li class="active"><a href="index.html"><i class="ion-ios-home-outline"></i><span class="menu-name">Home</span></a></li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseLayouts" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-bookmarks-outline"></i><span class="menu-name">Layouts</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseLayouts">          
+                <ul class="list-unstyled">
+                    <li ><a href="collapsed-sidebar.html">Collapsed Sidebar</a></li>
+                    <li ><a href="menu-with-header.html">Menu with Header</a></li>
+                    <li ><a href="horizontal-menu.html">Horizontal Menu</a></li>
+                    <li ><a href="right-sidebar.html">Right Sidebar</a></li>
+                    <li ><a href="left-right-sidebar.html">Left Right Sidebar</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseKnotExclusive" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-medical-outline"></i><span class="menu-name">Knot Exclusive</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseKnotExclusive">          
+                <ul class="list-unstyled">
+                    <li ><a href="gallery.html">Gallery</a></li>
+                    <li ><a href="invoice.html">Invoice</a></li>
+                    <li ><a href="mailbox.html">Mail Box</a></li>
+                    <li ><a href="calendar.html">Calendar</a></li>
+                    <li ><a href="pricing.html">Pricing</a></li>
+                    <li ><a href="info-boxes.html">Info Boxes</a></li>
+                    <li ><a href="profile.html">Profile</a></li>
+                    <li ><a href="tasks.html">Tasks</a></li>
+                    <li ><a href="timeline.html">Timeline</a></li>
+                    
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseUiElements" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-toggle-outline"></i><span class="menu-name">UI Elements</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseUiElements">          
+                <ul class="list-unstyled">
+                    <li ><a href="typography.html">Typography</a></li>
+                    <li ><a href="buttons.html">Buttons</a></li>
+                    <li ><a href="notifications.html">Notifications</a></li>
+                    <li ><a href="alerts.html">Alerts</a></li>
+                    <li ><a href="progress-bars.html">Progress Bars</a></li>
+                    <li ><a href="dropdowns.html">Dropdowns</a></li>
+                    <li ><a href="tree-view.html">Tree View</a></li>
+                    <li ><a href="animations.html">Animations</a></li>
+                    <li ><a href="sliders.html">Sliders</a></li>
+                    <li ><a href="nestable-lists.html">Nestable Lists</a></li>
+                    <li ><a href="carousel.html">Carousel</a></li>
+                    <li ><a href="portlets.html">Portlets</a></li>
+                    <li ><a href="tooltips.html">Tooltips</a></li>
+                    <li ><a href="list-groups.html">List Groups</a></li>
+                    <li ><a href="breadcrumbs.html">Bread Crumbs</a></li>
+                    <li ><a href="tabs-accordions.html">Tabs & Accordions</a></li>
+                    <li ><a href="pagination.html">Pagination</a></li>
+                    <li ><a href="modals.html">Modals</a></li>
+                    <li ><a href="file-manager.html">File Manager</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseForms" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-list-outline"></i><span class="menu-name">Forms</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseForms">          
+                <ul class="list-unstyled">
+                    <li ><a href="form-elements.html">Form Elements</a></li>
+                    <li ><a href="input-groups.html">Input Groups</a></li>
+                    <li ><a href="dropzone-file-upload.html">Dropzone File Upload</a></li>
+                    <li ><a href="form-validation.html">Validations</a></li>
+                    <li ><a href="form-wizard.html">Wizards</a></li>
+                    <li ><a href="image-crop.html">Image Crop</a></li>
+                    <li ><a href="wysiwig.html">WYSIWIG</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseExtras" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-football-outline"></i><span class="menu-name">Extras</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseExtras">          
+                <ul class="list-unstyled">
+                    <li ><a href="register.html">Register</a></li>
+                    <li ><a href="login.html">Login</a></li>
+                    <li ><a href="lock-screen.html">Lock Screen</a></li>
+                    <li ><a href="forgot-password.html">Forgot Password</a></li>
+                    <li ><a href="faq.html">Faq</a></li>
+                    <li ><a href="404.html">404</a></li>
+                    <li ><a href="505.html">505</a></li>
+                    <li ><a href="template.html">Template</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseTables" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-grid-view-outline"></i><span class="menu-name">Tables</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseTables">          
+                <ul class="list-unstyled">
+                    <li ><a href="basic-tables.html">Basic</a></li>
+                    <li ><a href="dynamic-tables.html">Dynamic</a></li>
+                    <li ><a href="editable-tables.html">Editable</a></li>
+                    <li ><a href="users-table.html">Users</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseGraphs" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-analytics-outline"></i><span class="menu-name">Graphs</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseGraphs">          
+                <ul class="list-unstyled">
+                    <li ><a href="line-graphs.html">Line Graphs</a></li>
+                    <li ><a href="area-graphs.html">Area Graphs</a></li>
+                    <li ><a href="bar-graphs.html">Bar Graphs</a></li>
+                    <li ><a href="other-graphs.html">Other Graphs</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseMaps" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-location-outline"></i><span class="menu-name">Maps</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseMaps">          
+                <ul class="list-unstyled">
+                    <li>
+                        <a data-toggle="collapse" href="#collapseGoogleMaps" aria-expanded="false" data-parent="#left-sidebar">
+                            Google Maps
+                            <i class="ion-chevron-right menu-chevron"></i>
+                        </a>          
+                        <div class="collapse" id="collapseGoogleMaps">          
+                            <ul class="list-unstyled">
+                                <li ><a href="basic-maps.html">Basic Maps</a></li>
+                                <li ><a href="markers-maps.html">Markers Maps</a></li>
+                                <li ><a href="routes-maps.html">Routes Maps</a></li>
+                            </ul>          
+                        </div>
+                    </li>
+                    <li ><a href="vector-maps.html">Vector Maps</a></li>
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseIcons" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-americanfootball-outline"></i><span class="menu-name">Icons</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseIcons">          
+                <ul class="list-unstyled">
+                    <li ><a href="font-awesome.html">Font Awesome</a></li>
+                    <li ><a href="ion-icons.html">Ion Icons</a></li>
+                    <li ><a href="themify-icons.html">Themify Icons</a></li>
+                    
+                </ul>          
+            </div>
+        </li>
+        <li class="submenu">          
+            <a data-toggle="collapse" href="#collapseMenuLevels" aria-expanded="false" data-parent="#left-sidebar">
+                <i class="ion-ios-keypad-outline"></i><span class="menu-name">Menu Levels</span>
+                <i class="ion-chevron-right menu-chevron"></i>
+            </a>          
+            <div class="collapse" id="collapseMenuLevels">          
+                <ul class="list-unstyled">
+                    <li>
+                        <a data-toggle="collapse" href="#collapseTryMe" aria-expanded="false" data-parent="#left-sidebar">Try me here
+                        <i class="ion-chevron-right menu-chevron"></i>
+                        </a>          
+                        <div class="collapse" id="collapseTryMe">          
+                            <ul class="list-unstyled">
+                                <li>
+                                <a data-toggle="collapse" href="#collapseOnceAgain" aria-expanded="false" data-parent="#left-sidebar">Once again please <i class="ion-chevron-right menu-chevron"></i>
+                                    </a>          
+                                    <div class="collapse" id="collapseOnceAgain">          
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">You can add</a></li>
+                                            <li><a href="#">more than two</a></li>
+                                            <li><a href="#">leves of menu</a></li>
+                                        </ul>          
+                                    </div>
+                                </li>
+                                <li><a href="#">Menu Link</a></li>
+                                <li><a href="#">Menu Link</a></li>
+                            </ul>          
+                        </div>
+                    </li>
+                    <li class='current'><a class='current' href="index.html">Direct link</a></li>
+                </ul>          
+            </div>
+        </li>
+    </ul>
+</section>
+
+    <!--  .slideout-panel is dynamically added to below main tag -->
+    <main id="panel" class="-panel">
+
+        <header>
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <ul class="nav navbar-nav sidebar-btn">
+            <li><a href="#" class="toggle-leftsidebar"><i class="ion ion-navicon"></i></a></li>
+            <li><a href="#" class="toggle-leftbar"><i class="ion ion-navicon"></i></a></li>         
+            <li><a href="#" class="fullScreen"><i class="ion-arrow-expand"></i> </a></li>
+        </ul>
+
+        
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown knot-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Multi Level <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-left" role="menu">
+                        <li><a href="#">First Link</a></li>
+                        <li><a href="#">Second Link</a></li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Hover me for more options</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#">Second level</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">Even More..</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">3rd level</a></li>
+                                        <li><a href="#">3rd level</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Second level</a></li>
+                                <li><a href="#">Second level</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown knot-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Drop Me <b class="caret"></b></a>
+                    <ul class="dropdown-menu top-menu-drop dropdown-left">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search something here...">
+                </div>          
+            </form>
+            <ul class="nav navbar-nav navbar-right">              
+                <li class="dropdown knot-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ion-ios-bell-outline"></i> </a>
+                    <ul class="dropdown-menu notification-drop user-drop">
+                        <li class="heading">You have 20 unread messages !</li>
+                        <li>
+                            <ul class="scroll-block">
+                                <li><a href="#"><i class="ion-ios-star yellow"></i> <p class="text">You earned 32 points Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione et, dicta reiciendis architecto facere sapiente, sunt error, fuga beatae sint voluptates eos enim atque alias assumenda iste iusto nam. </p> <span class="time">6 minutes ago</span></a></li>
+                                <li><a href="#"><i class="ion-email-unread red"></i> 36 new mails <span class="time">1 day ago</span></a></li>
+                                <li><a href="#"><i class="ion-happy blue"></i> Iris accepted your friendship <span class="time">2 days ago</span></a></li>
+                                <li><a href="#"><i class="ion-help-buoy sky"></i> Phone number updated <span class="time">3 days ago</span></a></li>
+                                <li><a href="#"><i class="ion-settings red"></i> Phone number updated <span class="time">3 days ago</span></a></li>
+                                <li><a href="#"><i class="ion-briefcase green"></i> Phone number updated <span class="time">3 days ago</span></a></li>
+                                <li><a href="#"><i class="ion-calendar torque"></i> Phone number updated <span class="time">3 days ago</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="footer"><a href="#">See all notifications</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown knot-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ion-ios-email-outline"></i> </a>
+                    <ul class="dropdown-menu message-drop">
+                        <li>
+                            <ul class="scroll-block">
+                                <li>
+                                    <a href="mailbox.html">
+                                        <span class="user-avatar">
+                                            <img src="assets/images/avatar.png" alt="avatar" class="message-img">
+                                            <span class="status away"></span>
+                                        </span>                      
+                                        <p class="name">Denver Wizard</p>
+                                        <p class="text">You earned 32 points Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione et, dicta reiciendis architecto facere sapiente, sunt error, fuga beatae sint voluptates eos enim atque alias assumenda iste iusto nam. </p> 
+                                        <p class="time">2 minutes ago</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailbox.html">
+                                        <span class="user-avatar">
+                                            <img src="assets/images/avatar.png" alt="avatar" class="message-img">
+                                            <span class="status online"></span>
+                                        </span>                      
+                                        <p class="name">Richard Henry</p>
+                                        <p class="text">You earned 32 points Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione et, dicta reiciendis architecto facere sapiente, sunt error, fuga beatae sint voluptates eos enim atque alias assumenda iste iusto nam. </p> 
+                                        <p class="time">2 minutes ago</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailbox.html">
+                                        <span class="user-avatar">
+                                            <img src="assets/images/avatar.png" alt="avatar" class="message-img">
+                                            <span class="status away"></span>
+                                        </span>                      
+                                        <p class="name">Sharpova</p>
+                                        <p class="text">You earned 32 points Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione et, dicta reiciendis architecto facere sapiente, sunt error, fuga beatae sint voluptates eos enim atque alias assumenda iste iusto nam. </p> 
+                                        <p class="time">2 minutes ago</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailbox.html">
+                                        <span class="user-avatar">
+                                            <img src="assets/images/avatar.png" alt="avatar" class="message-img">
+                                            <span class="status offline"></span>
+                                        </span>                      
+                                        <p class="name">Harley</p>
+                                        <p class="text">You earned 32 points Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione et, dicta reiciendis architecto facere sapiente, sunt error, fuga beatae sint voluptates eos enim atque alias assumenda iste iusto nam. </p> 
+                                        <p class="time">2 minutes ago</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailbox.html">
+                                        <span class="user-avatar">
+                                            <img src="assets/images/avatar.png" alt="avatar" class="message-img">
+                                            <span class="status away"></span>
+                                        </span>                      
+                                        <p class="name">Karthik nayak</p>
+                                        <p class="text">You earned 32 points Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione et, dicta reiciendis architecto facere sapiente, sunt error, fuga beatae sint voluptates eos enim atque alias assumenda iste iusto nam. </p> 
+                                        <p class="time">2 minutes ago</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <li class="footer"><a href="#">See all notifications</a></li>
+                        </ul>
+                    </li>            
+                <li class="dropdown knot-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ion-ios-person-outline"></i> </a>
+                        <ul class="dropdown-menu user-drop">
+                            <li><a href="profile.html"><i class="ion-help-buoy torque"></i> Settings</a></li>
+                            <li><a href="profile.html"><i class="ion-alert-circled blue"></i> Privacy Settings</a></li>
+                            <li><a href="profile.html"><i class="ion-document-text yellow"></i> My Notes</a></li>
+                            <li><a href="profile.html"><i class="ion-hammer red"></i> Edit</a></li>
+                            <li><a href="lock-screen.html"><i class="ion-power sky"></i> Logout</a></li>
+                        </ul>
+                    </li>
+                <li><a href="#" class="toggle-rightbar" ><i class="ion-ios-settings-strong"></i></a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+</header>
+
+
+        <div class="content-holder">          
+
+            
+
+<div class="breadcrump-block hidden">
+    <h3>Dashboard</h3>
+    <ol class="breadcrumb">                 
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Dashboard</a></li>        
+    </ol>      
+</div>                
+<div class="row">
+    <div class="col-md-3 col-xs-12 col-sm-6 ">
+        <div class="info-three greenbg-info">
+            <div class="logo-three"><i class="ion ion-ios-cloud dark-info-green"></i></div>
+            5.34 TB
+            <p>Storage Used</p>
+        </div>
+    </div>
+    <div class="col-md-3 col-xs-12 col-sm-6 ">
+        <div class="info-three redbg-info">
+            <div class="logo-three"><i class="ion ion-ios-film-outline dark-info-red"></i></div>
+            268
+            <p>Videos Upload</p>
+        </div>
+    </div>
+    <div class="col-md-3 col-xs-12 col-sm-6 ">
+        <div class="info-three yellowbg-info">
+            <div class="logo-three"><i class="ion ion-ios-musical-notes dark-info-yellow"></i></div>
+            1930
+            <p>Songs Listened</p>
+        </div>
+    </div>
+    <div class="col-md-3 col-xs-12 col-sm-6 ">
+        <div class="info-three primarybg-info">
+            <div class="logo-three"><i class="ion ion-document-text dark-info-primary"></i></div>
+            68,876
+            <p>All Documents</p>
+        </div>
+    </div> 
+
+
+    <div class="col-md-12 panel-parent">
+        <!-- panel starts here-->
+        <div class="panel knot-panel panel-primary">
+            <div class="panel-body main-chart">
+                <div class="ct-chart ct-minor-second"></div>
+            </div>
+        </div>
+        <!-- /panel -->
+    </div>
+    <!-- col-md-6 -->
+
+    <div class="col-md-4 panel-parent">
+        <!-- panel starts here-->
+        <div class="panel knot-panel knot-panel-wh no-bg">
+            <div class="profile-widget">
+                <div class="cover-photo">
+                    <img src="assets/images/cover.jpeg"  alt="">
+                </div>
+                <div class="user-info">
+                    <div class="profile-avatar">
+                        <img src="assets/images/avatar.png" alt="">
+                    </div>
+
+                    <ul class="list-inline profile-stats">
+                        <li>
+                            <span class="number">658</span>
+                            <span class="desc ">Completed</span>
+                        </li>
+                        <li>
+                            <span class="number">12</span>
+                            <span class="desc ">Pending</span>
+                        </li>
+                        <li>
+                            <span class="number">98</span>
+                            <span class="desc ">New Tasks</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="profile-tasks">
+                    <div class="info-icon bg-success"><i class="ion ion-ios-people dark-info-green"></i></div>
+                    <span class="number">Had a coffee</span>
+                    <p>Madhurams</p>
+                </div>
+
+
+                <div class="profile-tasks">
+                    <div class="info-icon bg-warning"><i class="ion ion-ios-film-outline dark-info-red"></i></div>
+                    <span class="number">5300</span>
+                    <p>Total MB Used</p>
+                </div>
+
+
+                <div class="profile-tasks">
+                    <div class="info-icon bg-danger"><i class="ion ion-ios-musical-notes dark-info-yellow"></i></div>
+                    <span class="number">5300</span>
+                    <p>Music Streamed last 3 hours </p>
+                </div>
+
+
+                <div id="inbox">
+                    <div class="fab btn-group show-on-hover dropup">
+                        <div data-toggle="tooltip" data-placement="left" title="Compose" style="margin-left: 42px;">
+                            <button type="button" class="btn btn-danger btn-io dropdown-toggle" data-toggle="dropdown">
+                                <span class="icon-rot">
+                                    <i class="fa ion-circle  fab-backdrop"></i>
+                                    <i class="fa ion-plus  fab-primary"></i>
+                                    <i class="fa ion-edit  fab-secondary"></i>
+                                </span>
+                            </button></div>
+                            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                <li><a href="#" data-toggle="tooltip" data-placement="left" title="Coffee"><i class="ion-coffee"></i></a></li>
+                                <li><a href="#" data-toggle="tooltip" data-placement="left" title="LiveChat"><i class="ion-heart"></i></a></li>
+                                <li><a href="#" data-toggle="tooltip" data-placement="left" title="Reminders"><i class="ion-cube"></i></a></li>
+                                <li><a href="#" data-toggle="tooltip" data-placement="left" title="Invites"><i class="ion-male"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /panel -->
+        </div>
+        <!-- col-md-4 -->
+
+
+
+        <div class="col-md-4 panel-parent">
+            <!-- panel starts here-->
+            <div class="panel knot-panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        Select list
+                        <span class="panel-options">
+                            <a href="#" class="panel-refresh">
+                                <i class="ion ion-refresh"></i> 
+                            </a>
+                            <a href="#" class="panel-minimize">
+                                <i class="ion ion-chevron-up"></i> 
+                            </a>
+                            <a href="#" class="panel-close">
+                                <i class="iion ion-close"></i> 
+                            </a>
+                        </span>
+                    </h3>
+                </div>
+                <div class="panel-body no-padding">
+                    <ul class="listrap">
+                        <li>
+                            <div class="listrap-toggle">
+                                <span></span>
+                                <img src="assets/images/avatar/one.png" alt="">
+                            </div>
+                            <div class="right">
+                                <h4>meeting</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ea, nemo sint rerum itaque minus modi, provident aliquam ab amet quia sequi, ad officiis maxime nam repellat enim possimus dolore ! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quisquam illo nostrum sunt molestias numquam non, est architecto sequi dolores. Cumque perspiciatis quo debitis. Ea vitae aut rem delectus est.</p>
+                            </div>
+                        </li>
+                        <li class="active">
+                            <div class="listrap-toggle">
+                                <span></span>
+                                <img src="assets/images/avatar/two.png" alt="">
+                            </div>
+                            <div class="right">
+                                <h4>Just wanted to check the code</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ea, nemo sint rerum itaque minus modi, provident aliquam ab amet quia sequi, ad officiis maxime nam repellat enim possimus dolore ! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quisquam illo nostrum sunt molestias numquam non, est architecto sequi dolores. Cumque perspiciatis quo debitis. Ea vitae aut rem delectus est.</p>
+                            </div>
+                        </li>
+                        <li class="active">
+                            <div class="listrap-toggle">
+                                <span></span>
+                                <img src="assets/images/avatar/three.png" alt="">
+                            </div>
+                            <div class="right">
+                                <h4>Happy to hear</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ea, nemo sint rerum itaque minus modi, provident aliquam ab amet quia sequi, ad officiis maxime nam repellat enim possimus dolore ! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quisquam illo nostrum sunt molestias numquam non, est architecto sequi dolores. Cumque perspiciatis quo debitis. Ea vitae aut rem delectus est.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="listrap-toggle">
+                                <span></span>
+                                <img src="assets/images/avatar/four.png" alt="">
+                            </div>
+                            <div class="right">
+                                <h4>Lets get it done</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ea, nemo sint rerum itaque minus modi, provident aliquam ab amet quia sequi, ad officiis maxime nam repellat enim possimus dolore ! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quisquam illo nostrum sunt molestias numquam non, est architecto sequi dolores. Cumque perspiciatis quo debitis. Ea vitae aut rem delectus est.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="listrap-toggle">
+                                <span></span>
+                                <img src="assets/images/avatar/four.png" alt="">
+                            </div>
+                            <div class="right">
+                                <h4>Lets get it done</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ea, nemo sint rerum itaque minus modi, provident aliquam ab amet quia sequi, ad officiis maxime nam repellat enim possimus dolore ! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quisquam illo nostrum sunt molestias numquam non, est architecto sequi dolores. Cumque perspiciatis quo debitis. Ea vitae aut rem delectus est.</p>
+                            </div>
+                        </li>
+                        <li class="active">
+                            <div class="listrap-toggle">
+                                <span></span>
+                                <img src="assets/images/avatar/six.png" alt="">
+                            </div>
+                            <div class="right">
+                                <h4>Howdiiiii</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ea, nemo sint rerum itaque minus modi, provident aliquam ab amet quia sequi, ad officiis maxime nam repellat enim possimus dolore ! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quisquam illo nostrum sunt molestias numquam non, est architecto sequi dolores. Cumque perspiciatis quo debitis. Ea vitae aut rem delectus est.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /panel -->
+        </div>
+        <!-- col-md-6 -->          
+
+        <div class="col-md-4 panel-parent">
+            <!-- panel starts here-->
+            <div class="panel knot-panel knot-panel-wh no-bg">
+                <div class="music-player">
+                    <div class="image-holder">
+                        <img src="assets/images/music.jpg" alt="musicimg">
+                    </div>
+                    <div class="info-holder">
+                        <div class="song">
+                            Mary my heart
+                            <span class="time">12:30</span>
+                            <a href="#" class="like"><i class="ion ion-heart"></i></a>
+                            <a href="#" class="shuffle"><i class="ion-shuffle"></i></a>
+                        </div>
+                        <div class="progress progress-bar-mini progress-sm progress-radius">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                <span class="sr-only">40% Complete</span>
+                            </div>
+                        </div>
+                        <div class="control-buttons">
+                            <ul class="list-inline">
+                                <li><a href="#"><i class="ion ion-play"></i></a>
+                                </li>
+                                <li><a href="#"><i class="ion-ios-rewind"></i></a>
+                                </li>                      
+                                <li><a href="#"><i class="ion ion-ios-fastforward"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="list-group playlist">
+                            <li class="list-group-item">
+                                <span class="badge bg-grey">2:60</span>
+                                Far from the sea
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge bg-warning">3:12</span>
+                                Let it be
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge bg-success">6:42</span>
+                                See the shining lights
+                            </li>                  
+                            <li class="list-group-item">
+                                <span class="badge bg-info">5:04</span>
+                                Grind up with 
+                            </li>                  
+                            <li class="list-group-item">
+                                <span class="badge bg-danger">3:32</span>
+                                Making the change 
+                            </li>                  
+                            <li class="list-group-item">
+                                <span class="badge bg-grey">4:22</span>
+                                Turns out to be one
+                            </li>                  
+                        </ul>
+                    </div>
+                    <!-- info-holder -->                
+                </div>
+                <!-- music-player -->
+            </div>
+            <!-- /panel -->
+        </div>
+        <!-- col-md-4 -->
+
+        <div class="container-fluid">
+        <div class="row">
+        <!-- Revenue Generation Widget -->
+        <div class="col-md-3 panel-parent">
+            <!-- panel starts here-->
+            <div class="panel knot-panel knot-panel-wh no-bg">
+                <div class="sparkline-widget">
+                    <div class="col-md-12 no-padding me">
+                        <div class="heading-info bg-info">
+                            <p class="pull-left">Revenue Generation
+                                <br>
+                            </p>
+                            <p class="right">9% <i class="ion-android-arrow-dropup flatGreenc"></i>
+                            </p>
+                        </div>
+                        <div class="svg-holder bg-info">
+                            <div class="line"></div>
+                            <svg id="chart1" class="sparkline"></svg>
+                        </div>
+                        <div class="info-bottom bg-info info-border">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6 left">
+                                        Monthly
+                                        <p>4%</p>
+                                    </div>
+                                    <div class="col-md-6 right">
+                                        Profit
+                                        <p>40%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+                <!-- sparkline-widget -->
+            </div>
+            <!-- /panel -->
+        </div>
+        <!-- col-md-3 -->
+
+
+        <!-- ********* Tabs Management *********** -->
+        <div class="col-md-6 panel-parent">
+            <!-- panel starts here-->
+            <div class="panel knot-panel knot-panel-wh no-bg">
+                <div class="col-xs-12 col-md-12 no-padding">
+                    <div class="col-lg-5 col-md-5 col-sm-8 col-xs-9 bhoechie-tab-container">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu">
+                            <div class="list-group content-wrapper">
+                                <a href="#" class="list-group-item text-center">
+                                    <i class="fa tab-icon fa-group"></i><br/>Users
+                                </a>
+                                <a href="#" class="list-group-item text-center">
+                                    <i class="ion tab-icon ion-filing"></i><br/>Projects
+                                </a>
+                                <a href="#" class="list-group-item text-center">
+                                    <i class="fa tab-icon fa-sign-in"></i><br/>Register
+                                </a>
+                                <a href="#" class="list-group-item text-center active">
+                                    <i class="fa tab-icon fa-credit-card"></i><br/>Payment
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bhoechie-tab">
+                            <!-- users section -->
+                            <div class="bhoechie-tab-content">
+                                <table class="table table-hover display" id="users_widget">
+                                    <thead>
+                                        <tr>
+                                            <th><i class="fa fa-sort"></i>&nbsp;User</th>
+                                            <th><i class="fa fa-sort"></i>&nbsp;Email</th>
+                                            <th><i class="fa fa-sort"></i>&nbsp;Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <td>Vijay</td>
+                                        <td>contact@vijay.me</td>
+                                        <td><span class="badge bg-success">Approved</span></td>
+                                    </tr><tr>
+                                        <td>Anusha</td>
+                                        <td>hire@anusha.com</td>
+                                        <td><span class="badge bg-info">Pending</span></td>
+                                    </tr><tr>
+                                        <td>John Doe</td>
+                                        <td>john@gmail.com</td>
+                                        <td><span class="badge bg-waring">Suspended</span></td>
+                                    </tr><tr>
+                                        <td>Chris</td>
+                                        <td>chris@yahoo.com</td>
+                                        <td><span class="badge bg-success">Approved</span></td>
+                                    </tr><tr>
+                                        <td>Steyaert</td>
+                                        <td>jens@gmail.com</td>
+                                        <td><span class="badge bg-danger">Rejected</span></td>
+                                    </tr><tr>
+                                        <td>David</td>
+                                        <td>davidoo@yahoo.com</td>
+                                        <td><span class="badge bg-info">Pending</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ankit</td>
+                                        <td>contact@ankit.me</td>
+                                        <td><span class="badge bg-success">Rejected</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ashuthosh</td>
+                                        <td>hire@ashuto.com</td>
+                                        <td><span class="badge bg-info">Suspended</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>John Doe</td>
+                                        <td>john@gmail.com</td>
+                                        <td><span class="badge bg-waring">Approved</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chris</td>
+                                        <td>chris@yahoo.com</td>
+                                        <td><span class="badge bg-success">Pending</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Steyaert</td>
+                                        <td>jens@gmail.com</td>
+                                        <td><span class="badge bg-danger">Suspended</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>David</td>
+                                        <td>davidoo@yahoo.com</td>
+                                        <td><span class="badge bg-info">Rejected</span></td>
+                                    </tr>
+                                </table>
+                                
+                            </div>
+                            <!-- train section -->
+                            <div class="bhoechie-tab-content">
+                                <table class="table table-hover" >
+                                    <thead>
+                                        <tr>
+                                            <th>User</th>
+                                            <th>Project Id</th>
+                                            <th>Progress</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <td>Vijay</td>
+                                        <td>133510</td>
+                                        <td>
+                                            <div class="progress progress-bar-mini progress-xs progress-widget">
+                                                <div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="53" aria-valuemin="0" aria-valuemax="100" style="width: 53%">
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><span class="text-info">53%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Anusha</td>
+                                        <td>133674</td>
+                                        <td>
+                                            <div class="progress progress-bar-mini progress-xs progress-widget">
+                                                <div class="progress-bar progress-bar-danger active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><span class="text-danger">25%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>John Doe</td>
+                                        <td>123545</td>
+                                        <td>
+                                            <div class="progress progress-bar-mini progress-xs progress-widget">
+                                                <div class="progress-bar progress-bar-warning active" role="progressbar" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100" style="width: 47%">
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><span class="text-warning">47%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chris</td>
+                                        <td>143890</td>
+                                        <td>
+                                            <div class="progress progress-bar-mini progress-xs progress-widget">
+                                                <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%">
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><span class="text-success">88%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Steyaert</td>
+                                        <td>133452</td>
+                                        <td>
+                                            <div class="progress progress-bar-mini progress-xs progress-widget">
+                                                <div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><span class="text-info">45%</span></td>
+                                    </tr>
+                                    
+                                </table>
+                            </div>
+
+                            <!-- Register -->
+                            <div class="bhoechie-tab-content">
+                                <div class="tab-content knot-tab-content register">
+                                    <h4 class="text-center">CREATE YOUR ACCOUNT</h4>
+                                        <form class="form">
+                                            <div class="form-group row">
+                                                <label class="col-md-4">Email:</label>
+                                                <span class="col-md-6">
+                                                    <input type="text" class="form-control" placeholder="Email">
+                                                </span>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-4">Password:</label>
+                                                <span class="col-md-6">
+                                                    <input type="text" class="form-control" placeholder="Password">
+                                                </span>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-4">Confirm Password:</label>
+                                                <span class="col-md-6">
+                                                    <input type="text" class="form-control" placeholder="Confirm Password">
+                                                </span>
+                                            </div>
+                                            <div class="form-group text-center">
+                                                <a href="#" class="btn btn-sea-blue">Register</a>
+                                            </div>
+                                        </form>
+                                </div>   
+                            </div>
+                            <div class="bhoechie-tab-content active">
+                               <!-- CREDIT CARD FORM STARTS HERE -->
+                                <div class="credit-card-box">
+                                    <div class="panel-heading display-table" >
+                                        <div class="row display-tr">
+                                            <h3 class="panel-title display-td pull-left">Subscription Payment</h3>
+                                            <img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png" alt="image">
+                                            
+                                        </div>                    
+                                    </div>
+                                    <div class="panel-body">
+                                        <form role="form" id="payment-form">
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <div class="form-group">
+                                                        <label for="cardNumber">CARD NUMBER</label>
+                                                        <div class="input-group">
+                                                            <input 
+                                                            type="tel"
+                                                            class="form-control"
+                                                            name="cardNumber"
+                                                            placeholder="Valid Card Number"
+                                                            id="cardNumber" 
+                                                            value="" 
+                                                            required autofocus 
+                                                            />
+                                                            <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+                                                        </div>
+                                                    </div>                            
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-7 col-md-7">
+                                                    <div class="form-group">
+                                                        <label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+                                                        <input 
+                                                        type="tel" 
+                                                        class="form-control" 
+                                                        name="cardExpiry"
+                                                        placeholder="MM / YY"
+                                                        id="cardExpiry" 
+                                                        value="" 
+                                                        required 
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-5 col-md-5 pull-right">
+                                                    <div class="form-group">
+                                                        <label for="cardCVC">CV CODE</label>
+                                                        <input 
+                                                        type="tel" 
+                                                        class="form-control"
+                                                        name="cardCVC"
+                                                        placeholder="CVC"
+                                                        id="cardCVC" 
+                                                        value="" 
+                                                        required
+                                                        />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group text-center">
+                                                <button class="btn btn-sea-blue" type="submit">Start Subscription</button>
+                                            </div>
+                                            <div class="row" style="display:none;">
+                                                <div class="col-xs-12">
+                                                    <p class="payment-errors"></p>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>            
+                                <!-- CREDIT CARD FORM ENDS HERE -->  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+            </div>
+            <!-- /panel -->
+        </div>
+        <!-- col-md-6 -->
+
+        <!-- ********* Tasks Management *********** -->
+        <div class="col-md-3 panel-parent">
+            <!-- panel starts here-->
+            <div class="panel knot-panel knot-panel-wh no-bg">
+                <div class="sparkline-widget">
+                    <div class="col-md-12 no-padding me">
+                        <div class="heading-info bg-success">
+                            <p class="pull-left">Tasks Management
+                                <br>
+                            </p>
+                            <p class="right">9% <i class="ion-android-arrow-dropup flatGreenc"></i>
+                            </p>
+                        </div>
+                        <div class="svg-holder bg-success">
+                            <div class="line"></div>
+                            <svg id="chart3" class="sparkline"></svg>
+                        </div>
+                        <div class="info-bottom bg-success info-border">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6 left">
+                                        Monthly
+                                        <p>4%</p>
+                                    </div>
+                                    <div class="col-md-6 right">
+                                        Profit
+                                        <p>40%</p>
+                                    </div>
+                                </div>
+
+                            </div>                       
+                        </div>
+                        <!-- sparkline-widget -->
+                    </div>
+                    <!-- /panel -->
+                </div>
+            </div>
+        </div><!-- /col-md-3 -->
+    </div>
+</div><!-- /row -->
+    
+    
+            <div class="container-fluid">
+                <div class="row">
+
+                <div class="col-md-3">
+                    <div class="calendar-dashboard"></div>
+                </div>
+
+                <div class="col-md-3 spark-widget">
+                    <div class="compositebar redbg-info">
+                        <span data-sparkline="compositebar1" data-height="82px" data-width="100%" class="sparkeline"></span>
+                    </div>
+                    <div class="info-bottom info-border bg-white">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 b-right">
+                                    <span class="spark-percent">132</span><br>
+                                    Monthly
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="spark-percent">460</span><br>
+                                    Yearly
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /spark-widget -->
+
+                    <div class="info-six bg-white margin-20">
+                          <div class="info-icon bg-info"><i class="ion white ion-document-text dark-info-red"></i></div>
+                          <span class="number blue">1200</span>
+                          <p class="blue">Files Downloaded</p>
+                      </div>
+
+                </div>
+
+                <div class="col-md-3 spark-widget">
+                    <div class="compositebar yellowbg-info">
+                        <span data-sparkline="compositebar2" data-height="82px" data-width="100%">
+                            4,6,2,7,3,8,1,2,5,5,6,4,8
+                        </span>
+                    </div>
+                    <div class="info-bottom info-border bg-white">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 b-right">
+                                    <span class="spark-percent">658</span><br>
+                                    Likes
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="spark-percent">275</span><br>
+                                    Dislikes
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-six bg-warning red  margin-20">
+                          <div class="info-icon"><i class="ion red ion-ios-people dark-info-green"></i></div>
+                          <span class="number">5300</span>
+                          <p>Total Users today</p>
+                      </div>
+
+                </div><!-- /col-md-3 -->
+
+                <div class="col-md-3">
+                    <div class="widget-profile">
+                            <div class="profile-top">
+
+                                <div class="wprofile-img">
+                                    <img src="assets/images/signinbg.jpg" alt="profile bg">
+                                </div>
+                                <div class="wprofile-heading">
+                                    Bootstrap Guru
+                                    <div class="wprofile-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque voluptate inventore nam iure tempore rerum minima.
+                                    </div>
+                                </div>
+                                <div class="wprofile-image">
+                                    <img src="assets/images/avatar.png" alt="avatar">
+                                </div>
+                                <div class="wprofile-icon">
+                                    <a href="#"><i class="ion ion-plus"></i></a>
+                                </div>
+                            </div>
+                            <ul class="list-inline list-unstyled profile-bottom">
+                                <li>180 <div class="wprofile-item">Followers</div></li>
+                                <li>90 <div class="wprofile-item">Following</div></li>
+                                <li>300 <div class="wprofile-item">Shares</div></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+            </div><!-- /row -->
+        </div>
+</div>
+
+
+
+        </div>
+        
+    </main>
+
+    <section id="right-sidebar" class="right-sidebar light-version">   
+
+	<div class="right-header">
+		<a href="#" class="close-rightsidebar"><i class="ion-close-round"></i></a>
+		<a href="#" class="clear-all">clear all</a>
+	</div>   
+	<div role="tabpanel" class="right-sidebar-tab">
+
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs" role="tablist">
+			<li role="presentation"><a href="#v1" role="tab" data-toggle="tab"><i class="ion-cube"></i></a></li>
+			<li role="presentation"><a href="#v2" role="tab" data-toggle="tab"><i class="ion-paintbucket"></i></a></li>
+			<li role="presentation"><a href="#v3" role="tab" data-toggle="tab"><i class="ion-person-stalker"></i></a></li>
+			<li role="presentation" class="active"><a href="#v4" role="tab" data-toggle="tab"><i class="ion-gear-a"></i></a></li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane" id="v1">				
+				<ul class="list-group contacts-list">
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/one.png" alt="">
+							</div>
+							<span class="name">Richards carlson</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/two.png" alt="">
+							</div>
+							<span class="name">Firing Arc</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/three.png" alt="">
+							</div>
+							<span class="name">strapzen</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/four.png" alt="">
+							</div>
+							<span class="name">Reeves</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/five.png" alt="">
+							</div>
+							<span class="name">Bootstrap Guru</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/six.png" alt="">
+							</div>
+							<span class="name">Carlson</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/seven.png" alt="">
+							</div>
+							<span class="name">Paris hilton</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/eight.png" alt="">
+							</div>
+							<span class="name">Henry Richards</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/nine.png" alt="">
+							</div>
+							<span class="name">Richie Rich</span>
+							<i class="ion ion-record onlineC"></i>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="v2">
+				<ul class="list-group contacts-list">
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/seven.png" alt="">
+							</div>
+							<span class="name">Paris hilton</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/eight.png" alt="">
+							</div>
+							<span class="name">Henry Richards</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/nine.png" alt="">
+							</div>
+							<span class="name">Richie Rich</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/one.png" alt="">
+							</div>
+							<span class="name">Richards carlson</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/two.png" alt="">
+							</div>
+							<span class="name">Firing Arc</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/three.png" alt="">
+							</div>
+							<span class="name">strapzen</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/four.png" alt="">
+							</div>
+							<span class="name">Reeves</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/five.png" alt="">
+							</div>
+							<span class="name">Bootstrap Guru</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#">
+							<div class="avatar">
+								<img src="assets/images/avatar/six.png" alt="">
+							</div>
+							<span class="name">Carlson</span>
+							<i class="ion ion-record awayC"></i>
+						</a>
+					</li>					
+				</ul>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="v3">
+				<div class="panel-group knot-accordion knot-accordion-two" id="accordionOne" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingModalOne">
+							<h4 class="panel-title">
+								<a class="" data-toggle="collapse" data-parent="#accordionOne" href="#ResponseRate" aria-expanded="true">
+									Response Rate <i class="chevron ti-angle-down"></i>
+								</a>
+							</h4>
+						</div>
+						<div id="ResponseRate" class="panel-collapse collapse in" role="tabpanel" aria-expanded="true">
+							<div class="panel-body no_padding">
+								<div class="list-group contacts-list">
+									<p class="info-head">web developement</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%">											
+										</div>
+									</div>
+
+									<p class="info-head">Mobile developement</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%">											
+										</div>
+									</div>
+
+									<p class="info-head">Ruby developement</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 60%">											
+										</div>
+									</div>
+
+								</div>	
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordionOne" href="#DecreasedRating" aria-expanded="false" class="collapsed">
+									Decreased Rating <i class="chevron ti-angle-down"></i>
+								</a>
+							</h4>
+						</div>
+						<div id="DecreasedRating" class="panel-collapse collapse in" role="tabpanel" aria-expanded="false">
+
+							<div class="panel-body no_padding">
+								<div class="list-group contacts-list">
+									<p class="info-head">Target Audience</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%">											
+										</div>
+									</div>
+
+									<p class="info-head">Free Apps</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%">											
+										</div>
+									</div>
+
+									<p class="info-head">Downloads</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 60%">											
+										</div>
+									</div>
+
+								</div>		
+							</div>
+
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								<a class="collapsed" data-toggle="collapse" data-parent="#accordionOne" href="#FalseResults" aria-expanded="false">
+									False Results <i class="chevron ti-angle-down"></i>
+								</a>
+							</h4>
+						</div>
+						<div id="FalseResults" class="panel-collapse collapse" role="tabpanel" aria-expanded="false">									
+							<div class="panel-body no_padding">
+								<div class="list-group contacts-list">
+									<p class="info-head">Less</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%">											
+										</div>
+									</div>
+
+									<p class="info-head">Css</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%">											
+										</div>
+									</div>
+
+									<p class="info-head">Php</p>
+									<div class="progress progress-bar-mini progress-xs">										
+										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 60%">											
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane active" id="v4">
+				<div class="settings">
+					<div class="form-group">
+						<div class="toggle-switch">
+							<label class="col-sm-8 control-label">Fixed Top NavBar</label>
+							<div class="col-sm-4">
+								<input type="checkbox" class="switchery toggle-body" id="topNav" > 
+							</div>
+						</div>
+						<div class="toggle-switch">
+							<label class="col-sm-8 control-label">Left Right Sidebar</label>
+							<div class="col-sm-4">
+								<input type="checkbox" class="switchery toggle-body" id="leftRightSidebar"  >
+							</div>
+						</div>
+						<div class="toggle-switch">
+							<label class="col-sm-8 control-label">Collapsed Sidebar</label>
+							<div class="col-sm-4">
+								<input type="checkbox" class="switchery toggle-body" id="collapsedSidebar" >
+								<div class="toggle">
+									<label for="collapsedSidebar"><i></i>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="toggle-switch">
+							<label class="col-sm-8 control-label">Horizontal Menu</label>
+							<div class="col-sm-4">
+								<input type="checkbox" class="switchery toggle-body" id="horizontalMenu" >
+								<div class="toggle">
+									<label for="horizontalMenu"><i></i>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="toggle-switch">
+							<label class="col-sm-8 control-label">Left Sidebar Light Version</label>
+							<div class="col-sm-4">
+								<input type="checkbox" class="switchery toggle-body" id="leftLightVersion" >
+								<div class="toggle">
+									<label for="leftLightVersion"><i></i>
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="toggle-switch">
+							<label class="col-sm-8 control-label">Right Sidebar Dark Version</label>
+							<div class="col-sm-4">
+								<input type="checkbox" class="switchery toggle-body" id="rightLightVersion" >
+								<div class="toggle">
+									<label for="rightLightVersion"><i></i>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- settings -->
+			</div>
+		</div>
+
+	</div>
+</section>
+    
+    <script src="assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/min/slideout-min.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/jquery.loadmask.min.js"></script>
+    <script src="assets/js/switchery.min.js"></script>
+    <script src="assets/js/jquery.fullscreen.min.js"></script>
+    
+<script src='assets/js/jquery.dataTables.min.js'></script>
+<script src='assets/js/bootstrap-datatables.js'></script>
+<script src='assets/js/dataTables-custom.js'></script>
+<script src='assets/js/jquery.bootstrap.wizard.js'></script>
+<script src='assets/js/form-wizard.js'></script>
+<script src="assets/js/bic_calendar.min.js"></script>
+<script src="assets/js/chartist/chartist.min.js"></script>
+<script src="assets/js/custom-chart.min.js"></script>
+<script src="assets/js/bhoechie.vertical.tabs.min.js"></script>
+<script src="assets/js/min/selectable.thumbnail.list.min.js"></script>
+<script src="assets/js/build/d3.min.js"></script>
+<script src="assets/js/build/nv.d3.min.js"></script>
+<script src="assets/js/jquery.sparkline.min.js"></script>
+<script src="assets/js/min/sparkline-min.js"></script>
+<script src="assets/js/min/weather-min.js"></script>
+
+<script>
+    $('.fab').hover(function () {
+        $(this).toggleClass('active');
+    });
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+
+<script>
+        $(document).ready(function () {
+            //Calendar on right sidebar @bic calendar
+            mesos = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+            dias = [ "MON", "TUE", "WED", "THU", "FRI","SAT","SUN"];
+
+            $('.calendar-dashboard').bic_calendar({
+                nombresMes: mesos,
+                dias: dias,
+                req_ajax: {
+                    type: 'get'
+                }
+            });
+        });
+</script>
+
+
+
+    <script src="assets/js/core.min.js"></script>
+    
+</body>
+</html>
